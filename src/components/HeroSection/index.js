@@ -28,7 +28,7 @@ const HeroSection = () => {
                     <Button to="singup" onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
                     dark="true"
-                    
+
                     >
                         Get Contact! {hover ? <ArrowForward /> : <ArrowRight />}</Button>
                 </HeroBtnWrapper>
