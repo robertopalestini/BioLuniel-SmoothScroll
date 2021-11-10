@@ -1,19 +1,23 @@
 import styled from 'styled-components'
+import {MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md'
 
 export const ProductsContainer = styled.div`
-height: 800px;
+height: auto;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 background: #010606;
+padding: 40px;
 
 @media screen and (max-width: 768px) {
-    height: 1100px;
+    height: auto;
+    padding: 30px;
     }
 
 @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: auto;
+    padding: 20px;
 }
 `
 
@@ -78,4 +82,13 @@ margin-bottom: 10px;
 export const ProductsP = styled.p`
 font-size: 1rem;
 text-align: center;
+`
+
+export const ArrowForward = styled(MdArrowForward)`
+margin-left: 8px;
+font-size: 20px;
+`
+export const ArrowRight = styled(MdKeyboardArrowRight)`
+margin-left: 8px;
+font-size: 20px;
 `

@@ -19,18 +19,20 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>
-                    BioLuniel
+                    Mejorando tu vida
                 </HeroH1>
                 <HeroP>
-                    BioLuniel
+                La armonía se manifiesta en todos los planos: física, mental, social y espiritual. La salud se alcanza
+en forma integral
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="singup" onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
-                    dark="true"
+                    dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                            
 
                     >
-                        Get Contact! {hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                        Productos {hover ? <ArrowForward /> : <ArrowRight />}</Button>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

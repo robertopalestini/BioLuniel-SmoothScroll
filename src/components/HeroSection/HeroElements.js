@@ -60,6 +60,7 @@ export const HeroH1 = styled.h1`
 color: #fff;
 font-size: 48px;
 text-align: center;
+text-shadow: 2px 2px 8px #000;
 
 @media screen and (max-width: 768px) {
     font-size 24px;
@@ -76,6 +77,7 @@ color: #fff;
 font-size: 24px;
 text-align: center;
 max-width: 600px;
+text-shadow: 2px 2px 8px #000;
 `
 
 export const HeroBtnWrapper = styled.div`

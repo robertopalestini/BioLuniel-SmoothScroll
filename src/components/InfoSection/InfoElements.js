@@ -12,13 +12,22 @@ background: ${({lightBg}) => (lightBg ? '#F9F9F9' : '#010606')};
 export const InfoWrapper = styled.div`
 display: grid;
 z-index: 1;
-height: 860px;
 width: 100%;
 max-width: 1100px;
 margin-right: auto;
 margin-left: auto;
-padding: 0 24px;
+padding: 30px 24px;
 justify-content: center;
+
+@media screen and (max-width: 768px) {
+    padding: 0 24px;
+    height: 800px;
+}
+@media screen and (max-width:480px) {
+    padding: 0 24px;
+    height: 750px;
+}
+
 `
 
 export const InfoRow = styled.div`
@@ -41,7 +50,7 @@ grid-area: col1;
 export const Column2 = styled.div`
 margin-bottom: 15px;
 padding: 0 15px;
-grid-area: col1;
+grid-area: col2;
 `
 
 export const TextWrapper = styled.div`
@@ -61,7 +70,7 @@ margin-bottom: 16px;
 `
 
 export const Heading = styled.h1`
-margin-bottom: 214px;
+margin-bottom: 14px;
 font-size: 48px;
 line-height: 1.1;
 font-weight: 600px;
