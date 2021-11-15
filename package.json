@@ -14,6 +14,7 @@
     "react-scroll": "^1.8.4",
     "requirejs": "^2.3.6",
     "styled-components": "^5.3.3",
+    "sweetalert2": "^11.1.10",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

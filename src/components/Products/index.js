@@ -22,11 +22,18 @@ import Icon19 from '../../images/19-bioDetox-01.png'
 import Icon20 from '../../images/20-bioDefensas-01.png'
 import Icon21 from '../../images/21-bioColageno-01.png'
 import Icon22 from '../../images/22-bioPeso-01.png'
-import {ProductsContainer, ProductsH1, ProductsWrapper, ProductsCard, ProductsIcon, ProductsH2, ProductsP,} from './ProductsElements'
+import {ProductsContainer, ProductsH1, ProductsWrapper, ProductsCard, ProductsIcon, ProductsH2, ProductsP, Button} from './ProductsElements'
 
+import Swal from 'sweetalert2/dist/sweetalert2.js'
+import 'sweetalert2/src/sweetalert2.scss'
 
 const Products = () => {
-
+    Swal.fire({
+        title: 'Error!',
+        text: 'Do you want to continue',
+        icon: 'error',
+        confirmButtonText: 'Cool'
+      })
 
     return (
         <ProductsContainer id="products">
@@ -36,7 +43,7 @@ const Products = () => {
                     <ProductsIcon src={Icon1} />
                     <ProductsH2>Bio Ansiedad/Angustia</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                    
+                    <Button to="/">  Productos</Button>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon2} />
