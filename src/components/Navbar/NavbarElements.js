@@ -2,6 +2,13 @@ import styled from 'styled-components'
 import { Link as LinkR} from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
 
+
+export const SocialIcons = styled.div`
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 240px;
+`
 export const Nav = styled.nav`
     background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
     height: 80px;
@@ -13,6 +20,7 @@ export const Nav = styled.nav`
     position: sticky;
     top: 0;
     z-index: 10;
+    transition: 0.8s all ease;
 
     @media screen and (max-width: 960px ) {
         transition: 0.8s all ease;
@@ -100,7 +108,6 @@ export const Nav = styled.nav`
     background: #73d629;
     white-space: nowrap;
     padding: 10px 22px;
-    color: #010606;
     font-size: 16px;
     outline: none;
     border: none;
@@ -110,8 +117,8 @@ export const Nav = styled.nav`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #fff;
-        color: #010606;
+        background: #488216;
+        color: #000000;
         
     }
     `

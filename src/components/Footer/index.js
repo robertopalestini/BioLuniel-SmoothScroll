@@ -1,6 +1,6 @@
 import React from 'react'
 import {animateScroll as scroll} from 'react-scroll'
-import {FaFacebook, FaInstagram, FaTwitter, } from 'react-icons/fa'
+import {FaFacebook, FaInstagram, FaTwitter, FaWhatsapp } from 'react-icons/fa'
 import {FooterContainer,
     FooterWrap,
     FooterLinksContainer,
@@ -76,7 +76,7 @@ const Footer = () => {
                         <SocialIconLink href='/' target="_blank" aria-label=">Twitter"><FaTwitter /></SocialIconLink>
                     </SocialIcons>
                     <SocialIcons>
-                        <SocialIconLink href='/' target="_blank" aria-label="WhatsApp"><FaFacebook /></SocialIconLink>
+                        <SocialIconLink href='/' target="_blank" aria-label="WhatsApp"><FaWhatsapp /></SocialIconLink>
                     </SocialIcons>
                     </SocialMediaWrap>
         

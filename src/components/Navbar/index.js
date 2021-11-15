@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import {FaBars} from 'react-icons/fa'
+import {FaBars, FaWhatsapp} from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
 import {animateScroll as scroll} from 'react-scroll';
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, SocialIcons } from './NavbarElements';
 
 
 const Navbar = ({ toggle }) => {
@@ -56,7 +56,7 @@ const toggleHome = () => {
                         </NavItem>
                     </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="/contact">Contacto</NavBtnLink>
+                            <NavBtnLink to="/contact"><FaWhatsapp /></NavBtnLink>
                         </NavBtn>
 
                 </NavbarContainer>

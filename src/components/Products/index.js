@@ -81,11 +81,11 @@ const Products = () => {
                     <ProductsH2>Bio Tristeza</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
-                <ProductsCard>
+                <Link to="/bioproduct"><ProductsCard >
                     <ProductsIcon src={Icon4} />
                     <ProductsH2>Bio Estrés</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
+                </ProductsCard></Link>
                 <ProductsCard>
                     <ProductsIcon src={Icon5} />
                     <ProductsH2>Bio Ira</ProductsH2>
