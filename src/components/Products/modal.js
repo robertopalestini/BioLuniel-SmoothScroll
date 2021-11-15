@@ -1,4 +1,3 @@
-	
 const ipAPI = '//api.ipify.org?format=json'
 
 const inputValue = fetch(ipAPI)
