@@ -14,7 +14,6 @@ import {FooterContainer,
     SocialIcons,
     SocialIconLink} from './FooterElements';
 
-    
 const Footer = () => {
     const toggleHome = () => {
         scroll.scrollToTop()
@@ -26,33 +25,31 @@ const Footer = () => {
         <FooterLinksContainer>
             <FooterLinksWrapper>
                 <FooterLinkItems>
-                    <FooterLinkTitle>Titulo</FooterLinkTitle>
+                    <FooterLinkTitle>Bio Luniel</FooterLinkTitle>
+                        <FooterLink to="/">Descubri</FooterLink>
+                        <FooterLink to="/">Beneficios</FooterLink>
                         <FooterLink to="/">Contacto</FooterLink>
-                        <FooterLink to="/">Acerca de nosotros</FooterLink>
-                        <FooterLink to="/">Bio Luniel</FooterLink>
-                        <FooterLink to="/">Bio Bach</FooterLink>
-                        <FooterLink to="/">Bio Natura</FooterLink>
                  </FooterLinkItems>
                  <FooterLinkItems>
-                    <FooterLinkTitle>Productos</FooterLinkTitle>
+                    <FooterLinkTitle>Bio Bach</FooterLinkTitle>
                         <FooterLink to="/">Bio Ansiedad/Angustia</FooterLink>
                         <FooterLink to="/">Bio Depresion</FooterLink>
                         <FooterLink to="/">Bio Digestion</FooterLink>
-                        <FooterLink to="/">Bio Ira</FooterLink>
-                        <FooterLink to="/">Bio Peso/Control</FooterLink>
-                 </FooterLinkItems>
-            </FooterLinksWrapper>
-            <FooterLinksWrapper>
-                <FooterLinkItems>
-                    <FooterLinkTitle>Productos</FooterLinkTitle>
-                        <FooterLink to="/">Bio Hombre</FooterLink>
-                        <FooterLink to="/">Bio Mujer</FooterLink>
                         <FooterLink to="/">Todos los Productos</FooterLink>
                         <FooterLink to="/">Productos mas vendidos</FooterLink>
                         <FooterLink to="/">Ofertas</FooterLink>
                  </FooterLinkItems>
+            </FooterLinksWrapper>
+            <FooterLinksWrapper>
+                <FooterLinkItems>
+                    <FooterLinkTitle>Bio Natura</FooterLinkTitle>
+                        <FooterLink to="/">Bio Hombre</FooterLink>
+                        <FooterLink to="/">Bio Mujer</FooterLink>
+                        <FooterLink to="/">Bio Mujer</FooterLink>
+                 </FooterLinkItems>
                  <FooterLinkItems>
                     <FooterLinkTitle>Social Media</FooterLinkTitle>
+                    <FooterLink to="/">WhatsApp</FooterLink>
                         <FooterLink to="/">Instagram</FooterLink>
                         <FooterLink to="/">Facebook</FooterLink>
                         <FooterLink to="/">Youtube</FooterLink>
@@ -66,7 +63,7 @@ const Footer = () => {
                     <SocialLogo to='/' onClick={toggleHome}>
                     bioluniel
                 </SocialLogo>
-                <WebsiteRights>bioluniel º {new Date().getFullYear()}copyright. All rights reserved </WebsiteRights>
+                <WebsiteRights>bioluniel º {new Date().getFullYear()} copyright. All rights reserved </WebsiteRights>
                 </SocialMediaWrap>
                 <SocialMediaWrap>
                     <SocialIcons>

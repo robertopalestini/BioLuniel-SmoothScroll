@@ -23,6 +23,8 @@ import Icon20 from '../../images/20-bioDefensas-01.png'
 import Icon21 from '../../images/21-bioColageno-01.png'
 import Icon22 from '../../images/22-bioPeso-01.png'
 import {ProductsContainer, ProductsH1, ProductsWrapper, ProductsCard, ProductsIcon, ProductsH2, ProductsP,} from './ProductsElements'
+
+
 const Products = () => {
 
 
@@ -33,122 +35,123 @@ const Products = () => {
                 <ProductsCard>
                     <ProductsIcon src={Icon1} />
                     <ProductsH2>Bio Ansiedad/Angustia</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
+                    
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon2} />
                     <ProductsH2>Bio Depresión</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon3} />
                     <ProductsH2>Bio Tristeza</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon4} />
                     <ProductsH2>Bio Estrés</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon5} />
                     <ProductsH2>Bio Ira</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon6} />
                     <ProductsH2>Bio Resentimiento</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon7} />
                     <ProductsH2>Bio Paz</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon8} />
                     <ProductsH2>Bio Rescate</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon9} />
                     <ProductsH2>Bio Resistencia (Bullying)</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon10} />
                     <ProductsH2>Bio Insomnio</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon11} />
                     <ProductsH2>Bio Migraña</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon12} />
                     <ProductsH2>Bio Apetito</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon13} />
                     <ProductsH2>Bio Hombre</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon14} />
                     <ProductsH2>Bio Mujer</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon15} />
                     <ProductsH2>Bio Memoria</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon16} />
                     <ProductsH2>Bio Concentración</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon17} />
                     <ProductsH2>Bio Digestión</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon18} />
                     <ProductsH2>Bio Alergia</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon19} />
                     <ProductsH2>Bio Detox</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon20} />
                     <ProductsH2>Bio Defensas</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon21} />
                     <ProductsH2>Bio Colágeno</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon22} />
                     <ProductsH2>Bio Peso Control</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon1} />
                     <ProductsH2>Bio Miedo Temor</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIcon src={Icon1} />
                     <ProductsH2>Bio Linfa</ProductsH2>
-                    <ProductsP>Ver +</ProductsP>
+                    <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
             </ProductsWrapper>
         </ProductsContainer>
