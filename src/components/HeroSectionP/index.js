@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import Image from '../../images/hero.jpg';
+import Image from '../../images/herop.jpg';
 import {Button} from '../ButtonElement';
-import { HeroContainer, HeroBg, HeroBgImage, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
+import { HeroContainerP, HeroBg, HeroBgImage, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
 
 const HeroSectionP = () => {
     const [hover, setHover] = useState(false)
@@ -11,7 +11,7 @@ const HeroSectionP = () => {
     }
 
     return (
-        <HeroContainer id="home">
+        <HeroContainerP id="home">
             <HeroBg>
                 <HeroBgImage>
                     <img className="HeroImage" src={Image} alt='bioluniel'/>
@@ -21,7 +21,7 @@ const HeroSectionP = () => {
                 
                 
             </HeroContent>
-        </HeroContainer>
+        </HeroContainerP>
     )
 }
 

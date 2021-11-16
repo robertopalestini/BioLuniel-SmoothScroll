@@ -60,8 +60,11 @@ transition: all 0.2s ease-in-out;
 `
 
 export const ProductsIcon = styled.img`
-height: 230px;
 width: 160px;
+margin-bottom: 10px;
+`
+export const ProductsIconBio = styled.img`
+width: 200px;
 margin-bottom: 10px;
 `
 
@@ -69,6 +72,7 @@ export const ProductsH1 = styled.h1`
 font-size: 2.5rem;
 color: #fff;
 margin-bottom: 64px;
+margin-top: 20px;
 
 @media screen and (max-width: 480px) {
     font-size: 2rem;

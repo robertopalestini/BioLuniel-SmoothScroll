@@ -22,7 +22,13 @@ import Icon19 from '../../images/19-bioDetox-01.png'
 import Icon20 from '../../images/20-bioDefensas-01.png'
 import Icon21 from '../../images/21-bioColageno-01.png'
 import Icon22 from '../../images/22-bioPeso-01.png'
-import {ProductsContainer, ProductsH1, ProductsWrapper, ProductsCard, ProductsIcon, ProductsH2, ProductsP} from './ProductsElements'
+import Icon23 from '../../images/21-bioColageno-01.png'
+import Icon24 from '../../images/22-bioPeso-01.png'
+//BIO NATURA
+import Icon25 from '../../images/biocristal-01.png'
+import Icon26 from '../../images/biocabello-01.png'
+import Icon27 from '../../images/bioarsilla-01.png'
+import {ProductsContainer, ProductsH1, ProductsWrapper, ProductsCard, ProductsIcon, ProductsIconBio, ProductsH2, ProductsP} from './ProductsElements'
 import Swal from 'sweetalert2';
 import { Link } from 'react-router-dom'
 
@@ -186,8 +192,31 @@ const Products = () => {
                     <ProductsH2>Bio Linfa</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
+                 
             </ProductsWrapper>
-        </ProductsContainer>
+
+
+
+            <ProductsH1 margin-top="20px">Bio Natura</ProductsH1>
+            <ProductsWrapper>
+            
+                <ProductsCard>
+                    <ProductsIconBio src={Icon25} />
+                    <ProductsH2>Bio Cristal</ProductsH2>
+                    <ProductsP>Ver más</ProductsP>
+                </ProductsCard>
+                <ProductsCard>
+                    <ProductsIconBio src={Icon26} />
+                    <ProductsH2>Bio Cabello Sano</ProductsH2>
+                    <ProductsP>Ver más</ProductsP>
+                </ProductsCard>
+                <ProductsCard>
+                    <ProductsIconBio src={Icon27} />
+                    <ProductsH2>Bio Arcilla</ProductsH2>
+                    <ProductsP>Ver más</ProductsP>
+                </ProductsCard>
+            </ProductsWrapper>
+              </ProductsContainer>
     )
 }
 
