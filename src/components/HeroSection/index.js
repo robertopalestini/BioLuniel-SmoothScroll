@@ -19,11 +19,10 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>
-                    Mejorando tu vida
+                Mejorando tu vida
                 </HeroH1>
                 <HeroP>
-                La armonía se manifiesta en todos los planos: física, mental, social y espiritual. La salud se alcanza
-en forma integral
+                Con nuestras Esencias Florales.
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="products" onMouseEnter={onHover} onMouseLeave={onHover}
@@ -32,7 +31,7 @@ en forma integral
                             
 
                     >
-                        Productos {hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                        Productos Bio BACH {hover ? <ArrowForward /> : <ArrowRight />}</Button>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
