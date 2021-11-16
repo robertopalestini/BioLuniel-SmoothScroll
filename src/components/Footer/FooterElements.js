@@ -81,12 +81,13 @@ text-decoration:none;
 
 @media screen and (max-width: 820px) {
     flex-direction: column;
+    align-items: center;
 }
 `
 
 export const SocialLogo = styled(Link)`
 
-color: #fff
+color: #fff;
 justify-self: start;
 cursor: pointer;
 text-decoration: none;
@@ -106,7 +107,10 @@ export const SocialIcons = styled.div`
 display: flex;
 justify-content: space-between;
 align-items: center;
-width: 240px;
+@media screen and (max-width: 820px) {
+    align-items: center;
+    width: auto;
+}
 `
 
 export const SocialIconLink = styled.a`

@@ -1,12 +1,9 @@
 import styled from 'styled-components';
+import {Link} from 'react-router-dom'
 
-export const InfoContainer = styled.div`
-color:#000;
-background: ${({lightBg}) => (lightBg ? '#F9F9F9' : '#010606')};
-
-@media screen and (max-width: 768px) {
-    padding: 100px 0;
-}
+export const ProductCContainer = styled.div`
+height: auto;
+background-color: #fff;
 `
 
 export const InfoWrapper = styled.div`
@@ -27,11 +24,6 @@ justify-content: center;
     padding: 0 24px;
     height: 750px;
 }
-@media screen and (max-width:479px) {
-    padding: 0 24px;
-    height: 800px;
-}
-
 
 `
 
@@ -98,14 +90,33 @@ export const BtnWrap = styled.div`
 display: flex;
 justify-content: flex-start;
 `
-
 export const ImgWrap = styled.div`
 max-width: 555px;
-height: 100%;
 `
 
 export const Img = styled.img`
-width: 100%;
+width: 400px;
 margin: 0 0 10px 0;
 padding-right: 0;
+`
+
+export const Button = styled(Link)`
+border-radius: 50px;
+background: ${({primary}) => (primary ? '#73d629' : '#010606')};
+white-space: nowrap;
+padding: ${({big}) => (big ? '14px 48px' : '12px 30px')};
+color: ${({dark}) => (dark ? '#fff' : '#fff')};
+font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+outline: none;
+border: none;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: all 0.2s ease-in-out;
+
+&:hover {
+    transition: all 0.2s ease-in-out; 
+    background: ${({primary}) => (primary ? '#010606' : '#73d629')};
+}
 `

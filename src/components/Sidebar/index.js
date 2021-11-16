@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaWhatsapp} from 'react-icons/fa'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements';
 
 const Sidebar = ({isOpen, toggle }) => {
@@ -23,7 +24,7 @@ const Sidebar = ({isOpen, toggle }) => {
                     </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/signin">Contacto</SidebarRoute>
+                    <SidebarRoute to="/contact"><FaWhatsapp /></SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

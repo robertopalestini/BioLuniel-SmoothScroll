@@ -76,7 +76,7 @@ background: #73d629;
 white-space: nowrap;
 padding: 15px 64px;
 color: #010606;
-font-size: 16px;
+font-size: 30px;
 outline: none;
 border: none;
 cursor: pointer;
