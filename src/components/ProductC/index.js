@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'react-scroll';
-import Icon3 from '../../images/3-bioEstres-01.png'
+import Icon3 from '../../images/bigsize/3-bioEstres.png';
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
 import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
@@ -33,7 +33,7 @@ o psicosomáticos de estrés, que generen alteraciones de adaptación. </Subtitl
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon3} width="400px"/>
+                    <img className="productoImagen" src={Icon3} />
                     </ImgWrap>
                     </Column2>
                 </InfoRow>
