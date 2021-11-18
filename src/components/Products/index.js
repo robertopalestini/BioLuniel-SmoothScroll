@@ -126,41 +126,41 @@ const Products = () => {
                     <ProductsH2>Bio Ira</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <Link to="/bioproduct"><ProductsCard>
+                <Link to="/bioresentimiento"><ProductsCard>
                     <ProductsIcon src={Icon6} />
                     <ProductsH2>Bio Resentimiento</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <ProductsCard>
+                <Link to="/biopaz"><ProductsCard>
                     <ProductsIcon src={Icon5} />
                     <ProductsH2>Bio Paz</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/biorescate"><ProductsCard>
                     <ProductsIcon src={Icon8} />
                     <ProductsH2>Bio Rescate</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/bioresistencia"><ProductsCard>
                     <ProductsIcon src={Icon9} />
                     <ProductsH2>Bio Resistencia (Bullying)</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/bioinsomnio"><ProductsCard>
                     <ProductsIcon src={Icon10} />
                     <ProductsH2>Bio Insomnio</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/biomigrana"><ProductsCard>
                     <ProductsIcon src={Icon11} />
                     <ProductsH2>Bio Migraña</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/bioapetito"><ProductsCard>
                     <ProductsIcon src={Icon12} />
                     <ProductsH2>Bio Apetito</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
+                </ProductsCard></Link>
                 <ProductsCard>
                     <ProductsIcon src={Icon13} />
                     <ProductsH2>Bio Hombre</ProductsH2>
@@ -186,26 +186,26 @@ const Products = () => {
                     <ProductsH2>Bio Digestión</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
-                <ProductsCard>
+                <Link to="/bioalergia"><ProductsCard>
                     <ProductsIcon src={Icon18} />
                     <ProductsH2>Bio Alergia</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
+                </ProductsCard></Link>
                 <ProductsCard>
                     <ProductsIcon src={Icon19} />
                     <ProductsH2>Bio Detox</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard>
-                <ProductsCard>
+                <Link to="/biodefensas"><ProductsCard >
                     <ProductsIcon src={Icon20} />
                     <ProductsH2>Bio Defensas</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/biocolageno"><ProductsCard>
                     <ProductsIcon src={Icon21} />
                     <ProductsH2>Bio Colágeno</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
+                </ProductsCard></Link>
                 <ProductsCard>
                     <ProductsIcon src={Icon22} />
                     <ProductsH2>Bio Peso Control</ProductsH2>

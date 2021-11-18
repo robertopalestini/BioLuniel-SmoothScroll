@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'react-scroll';
-import Icon4 from '../../images/bigsize/4-bioIra.png'
+import Icon21 from '../../images/bigsize/21-bioColageno.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
 import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
@@ -16,18 +16,12 @@ const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText,
                     <Column1>
                     <TextWrapper>
                     <TopLine>BioBach</TopLine>
-                    <Heading >Bio Ira</Heading>
-                    <Subtitle>Puede tener muchas consecuencias físicas y mentales, la ira, cólera (colerín),
-rabia, enojo o furia es una emoción que se expresa a través de la irritabilidad.
-Los efectos físicos de la ira incluyen aumento del ritmo cardíaco, de la
-irritabilidad, de la presión sanguínea y de los niveles de adrenalina.
-Cuando este estado de excitación permanece estamos más predispuestos a
-actuar en forma impulsiva llegando a emitir conductas agresivas, algunos ven la
-ira como parte de la respuesta cerebral de atacar o huir de una amenaza o daño
-percibido en otros casos este estimulo externo se pierde en el tiempo, pero
-persiste esta alteración emocional sin causa aparente.</Subtitle>
-                    <Subtitle>Nuestro producto justamente está recomendado para equilibrar esta emoción llevando a la
-persona a un control de sus acciones y evitando complicaciones con otros órganos. </Subtitle>
+                    <Heading >Bio Colageno</Heading>
+                    <Subtitle>Es un estimulador de la producción propia de colágeno de nuestro cuerpo,
+necesario para mantener los tejidos blandos como la piel, pelo y uñas
+saludables, lograr que se mantengan los tejidos peri articulares y articulares, así
+como las superficies articulares saludables.</Subtitle>
+                    
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>
@@ -35,7 +29,7 @@ persona a un control de sus acciones y evitando complicaciones con otros órgano
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon4} width="400px"/>
+                    <img src={Icon21} className="productoImagen"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

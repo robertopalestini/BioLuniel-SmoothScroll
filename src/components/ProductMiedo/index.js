@@ -1,6 +1,6 @@
 import React from 'react'
 import { Button } from 'react-scroll';
-import Icon4 from '../../images/bigsize/4-bioIra.png'
+import Icon4 from '../../images/4-bioIra-01.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
 import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';

@@ -84,7 +84,6 @@ margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
 color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
-
 @media screen and (max-width:768px) {
     font-size: 12px;
 }
