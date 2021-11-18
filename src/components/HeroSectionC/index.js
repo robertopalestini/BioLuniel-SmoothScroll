@@ -19,10 +19,10 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>
-                Mejorando tu vida
+                Contacto
                 </HeroH1>
                 <HeroP>
-                Con nuestras Esencias Florales.
+                Medios de comunicación
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="/productos" onMouseEnter={onHover} onMouseLeave={onHover}

@@ -26,9 +26,9 @@ const Footer = () => {
             <FooterLinksWrapper>
                 <FooterLinkItems>
                     <FooterLinkTitle>Bio Luniel</FooterLinkTitle>
-                        <FooterLink to="/">Descubri</FooterLink>
-                        <FooterLink to="/">Beneficios</FooterLink>
-                        <FooterLink to="/">Contacto</FooterLink>
+                        <FooterLink to="/productos">Productos</FooterLink>
+                        <FooterLink to="/nosotros">Nosotros</FooterLink>
+                        <FooterLink to="/contacto">Contacto</FooterLink>
                  </FooterLinkItems>
                  <FooterLinkItems>
                     <FooterLinkTitle>Bio Bach</FooterLinkTitle>
