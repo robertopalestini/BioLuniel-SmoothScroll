@@ -53,4 +53,45 @@ export const homeObjThree = {
     darktext: false,
     };
 
+        
+    export const homeObjFour = {
+        id: 'equipo',
+        lightBg: true,
+        lighText: false,
+        lighTextDesc: false,
+        topLine: 'Bio Luniel',
+        headLine: 'NUESTRO EQUIPO',
+        description: '.',
+        buttonLabel: '',
+        imgStart: true,
+        img: require("../../images/svg-1.svg").default, //note the default part at the end
+        // img: {srcOne},
+        alt: 'Flores de Bach',
+        dark: true,
+        primary: false,
+        darktext: false,
+        };
+    
+    
+
+        
+        export const homeObjFive = {
+            id: 'floresdebach',
+            lightBg: true,
+            lighText: false,
+            lighTextDesc: false,
+            topLine: 'Bio Luniel',
+            headLine: 'Flores de Bach',
+            description: 'Acelera los tiempos de recuperación, reduce el plazo de los tratamientos convencionales entre 50% a 70%, por ello es utilizado por médicos, psicólogos y psiquiatras con cosmovisión Holística. Una vez concluido el tratamiento la enfermedad desaparece en forma definitiva, ya que la curación proviene de una evolución interior. “La lección aprendida no se puede desaprender”.',
+            buttonLabel: 'Products',
+            imgStart: true,
+            img: require("../../images/svg-1.svg").default, //note the default part at the end
+            // img: {srcOne},
+            alt: 'Flores de Bach',
+            dark: true,
+            primary: false,
+            darktext: false,
+            };
+        
+                    
     

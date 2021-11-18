@@ -15,6 +15,8 @@ import BioRescate from './pages/BioRescate';
 import BioResistencia from './pages/BioResistencia';
 import BioInsomnio from './pages/BioInsomnio';
 import BioMigrana from './pages/BioMigrana';
+import Nosotros from './pages/nosotros';
+import Productos from './pages/productos';
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
      
       <Routes> 
         <Route path="/" element={<Home />} exact />
-        <Route path="/contact" element={<ContactPage />} exact />
+        <Route path="/nosotros" element={<Nosotros />} exact />
+        <Route path="/contacto" element={<ContactPage />} exact />
+        <Route path="/productos" element={<Productos />} exact />
         <Route path="/bioproduct" element={<BioProduct />} exact />
         <Route path="/bioproductd" element={<BioProductD />} exact />
         <Route path="/biodefensas" element={<BioDefensas />} exact />

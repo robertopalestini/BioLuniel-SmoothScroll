@@ -8,7 +8,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: #010606;
+background: #fff;
 padding: 40px;
 
 @media screen and (max-width: 768px) {
@@ -42,7 +42,7 @@ padding: 0 50px;
 `
 
 export const ProductsCard = styled.div`
-background: #fff;
+background: #f3f6f4;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -70,7 +70,7 @@ margin-bottom: 10px;
 
 export const ProductsH1 = styled.h1`
 font-size: 2.5rem;
-color: #fff;
+color: #2e2c2b;
 margin-bottom: 64px;
 margin-top: 20px;
 

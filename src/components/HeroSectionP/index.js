@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Image from '../../images/herop.jpg';
+import Image from '../../images/herop2.jpg';
 import {Button} from '../ButtonElement';
 import { HeroContainerP, HeroBg, HeroBgImage, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
 

@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import Image from '../../images/hero.jpg';
+import Image from '../../images/herosection.jpg';
 import {Button} from '../ButtonElement';
 import { HeroContainer, HeroBg, HeroBgImage, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
 
-const HeroSection = () => {
+const HeroSectionN = () => {
     const [hover, setHover] = useState(false)
 
     const onHover = () => {
@@ -25,7 +25,7 @@ const HeroSection = () => {
                 Con nuestras Esencias Florales.
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="/products" onMouseEnter={onHover} onMouseLeave={onHover}
+                    <Button to="products" onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
                     dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80}
                             
@@ -38,4 +38,4 @@ const HeroSection = () => {
     )
 }
 
-export default HeroSection
+export default HeroSectionN

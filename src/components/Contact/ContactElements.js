@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
-min-height: 1100px;
+min-height: 600px;
 position: fiex;
 bottom: 0;
 left: 0;
@@ -10,9 +10,55 @@ right: 0;
 top: 0;
 z-index: 0;
 overflow: hidden;
-background: rgb(2,0,36);
-background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(81,121,9,1) 35%, rgba(48,255,0,1) 100%);
+
 `;
+export const ContactoWrapper = styled.div`
+display: grid;
+z-index: 1;
+width: 100%;
+max-width: 1100px;
+margin-right: auto;
+margin-left: auto;
+padding: 30px 24px;
+justify-content: center;
+
+@media screen and (max-width: 768px) {
+    padding: 0 24px;
+    height: 800px;
+}
+@media screen and (max-width:480px) {
+    padding: 0 24px;
+    height: 750px;
+}
+@media screen and (max-width:479px) {
+    padding: 0 24px;
+    height: 800px;
+}
+
+
+`
+
+export const ContactoRow = styled.div`
+display: grid;
+grid-auto-columns: minmax(auto, 1fr);
+align-items: center;
+grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+
+@media screen and (max-width: 768px) {
+
+    grid-template-areas ${({imgStart}) => (imgStart ? `'col 1' 'col2'` : `'col1 col 1' 'col2 col2'`)};
+}
+`
+export const Column1 = styled.div`
+margin-bottom: 15px;
+padding: 0 15px;
+grid-area: col1;
+`
+export const Column2 = styled.div`
+margin-bottom: 15px;
+padding: 0 15px;
+grid-area: col2;
+`
 
 export const FormWrap = styled.div`
 height: 100%;
@@ -29,7 +75,7 @@ export const Icon = styled(Link)`
 margin-left: 32px;
 margin-top: 32px;
 text-decoration: none;
-color: #fff;
+color: #eee;
 font-weight: 700;
 font-size: 32px;
 
@@ -51,7 +97,7 @@ justify-contet: center;
 `;
 
 export const Form = styled.form`
-background: #010101;
+background: #eeeeee;
 max-width: 400px;
 height: auto;
 width: 100%;
@@ -69,16 +115,16 @@ box-shadow: 0 1px 3px rgba(0,0,0, 0.9);
 
 export const FormH1 = styled.h1`
 margin-bottom: 40px;
-color: #fff;
-font-size: 20px;
+color: #444;
+font-size: 23px;
 font-weight: 400;
-text-align: center;
+text-align: left;
 `;
 
 export const FormLabel = styled.label`
 margin-bottom: 8px;
 font-size: 14px;
-color: #fff;
+color: #eee;
 `;
 
 export const FormInput = styled.input`
@@ -93,7 +139,7 @@ background: #73d629;
 padding: 16px 0;
 border: none;
 border-radius: 4px;
-color: #fff;
+color: #444;
 font-size: 20px;
 cursor: pointer;
 `;
@@ -101,6 +147,14 @@ cursor: pointer;
 export const Text = styled.span`
 text-align: center;
 margin-top: 24px;
-color: #fff;
+color: #444;
 font-size: 14px;
 `;
+
+export const ContactoH3 = styled.h3`
+margin-bottom: 30px;
+color: #444;
+font-size: 14px;
+
+text-align: left;
+`

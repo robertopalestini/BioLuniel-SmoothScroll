@@ -1,0 +1,37 @@
+.mapaImagen {
+  width: 600px;
+}
+@media screen and (max-width: 1024px) {
+  .mapaImagen {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mapaImagen {
+    width: 350px;
+  }
+}
+
+.iconos {
+  font-size: 18px;
+}
+
+.boton {
+  border-radius: 50px;
+  background: #73d629;
+  white-space: nowrap;
+  padding: 12px 30px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+.boton:hover {
+  transition: all 0.2s ease-in-out;
+  background: #010606;
+}

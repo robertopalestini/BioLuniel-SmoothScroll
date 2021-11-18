@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import Footer from '../components/Footer'
-import HeroSection from '../components/HeroSection'
-import HeroSectionC from '../components/HeroSectionC'
+import HeroSectionP from '../components/HeroSectionP'
 import InfoSection from '../components/InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
 import Navbar from '../components/Navbar'
@@ -9,7 +8,7 @@ import Products from '../components/Products'
 import Sidebar from '../components/Sidebar'
 import Image from '../images/hero.jpg'
 
-const Home = () => {
+const Productos = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     const toggle = () => {
@@ -20,14 +19,11 @@ const Home = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
-             <HeroSection />
-             <InfoSection {...homeObjOne}/>
-             <InfoSection {...homeObjTwo}/>
-             <HeroSectionC />
-             <InfoSection {...homeObjThree}/>
+             <HeroSectionP />
+             <Products />
              <Footer />
         </>
     )
 }
 
-export default Home
+export default Productos
