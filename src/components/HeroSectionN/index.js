@@ -19,7 +19,7 @@ const HeroSectionN = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>
-                Mejorando tu vida
+                Nosotros
                 </HeroH1>
                 <HeroP>
                 Con nuestras Esencias Florales.
