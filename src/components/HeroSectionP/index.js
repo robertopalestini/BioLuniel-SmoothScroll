@@ -18,7 +18,21 @@ const HeroSectionP = () => {
                 </HeroBgImage>
             </HeroBg>
             <HeroContent>
-                
+            <HeroH1>
+                Nuestras Esencias
+                </HeroH1>
+                <HeroP>
+                Florales Bio-Bach
+                </HeroP>
+                <HeroBtnWrapper>
+                    <Button to="/productos" onMouseEnter={onHover} onMouseLeave={onHover}
+                    primary="true"
+                    dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                            
+
+                    >
+                        Productos Bio BACH {hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                </HeroBtnWrapper>
                 
             </HeroContent>
         </HeroContainerP>
