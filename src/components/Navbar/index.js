@@ -5,6 +5,7 @@ import {animateScroll as scroll, Link} from 'react-scroll';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, SocialIcons } from './NavbarElements';
 
 
+
 const Navbar = ({ toggle }) => {
 const [scrollNav, setScrollNav] = useState(false)
 
@@ -23,6 +24,7 @@ const toggleHome = () => {
     scroll.scrollToTop()
 };
 
+
     return (
         <>
         <IconContext.Provider value={{ color: '#fff'}}>
@@ -39,14 +41,14 @@ const toggleHome = () => {
                             >Productos</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/nosotros' >Nosotros</NavLinks>
+                            <NavLinks to='/nosotros' onClick={toggleHome} >Nosotros</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to='/contacto' >Contacto</NavLinks>
+                            <NavLinks to='/contacto' onClick={toggleHome} >Contacto</NavLinks>
                         </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="/contact"><FaWhatsapp /></NavBtnLink>
+                            <NavBtnLink to="/contact" onClick={toggleHome}><FaWhatsapp /></NavBtnLink>
                         </NavBtn>
 
                 </NavbarContainer>

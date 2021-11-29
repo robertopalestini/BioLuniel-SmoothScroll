@@ -1,27 +1,28 @@
 import React, {useState} from 'react'
 import Footer from '../components/Footer'
-import HeroSectionP from '../components/HeroSectionP'
+import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
+import ProductD from '../components/ProductD'
+import { ProductCContainer } from '../components/ProductC/ProductCElements'
 import Products from '../components/Products'
 import Sidebar from '../components/Sidebar'
 
+const BioIra = () => {
 
-const Productos = () => {
-    const [isOpen, setIsOpen] = useState(false)
-
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    }
-
+        const [isOpen, setIsOpen] = useState(false)
+    
+        const toggle = () => {
+            setIsOpen(!isOpen)
+        }
     return (
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
-             <HeroSectionP />
-             <Products />
+            <ProductD />
+
              <Footer />
         </>
     )
 }
 
-export default Productos
+export default BioIra

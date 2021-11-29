@@ -1,12 +1,12 @@
 import React from 'react'
 import { Button } from 'react-scroll';
-import Icon14 from '../../images/bigsize/14-bioMujer.png'
+import Icon22 from '../../images/bigsize/22-bioPeso.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
 import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
 
 
-const ProductMujer = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
+const ProductPesoControl = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
     return (
         <>
         <HeroSectionP />
@@ -16,13 +16,15 @@ const ProductMujer = ({lightBg, id, imgStart, topLine, lighText, headLine, darkT
                     <Column1>
                     <TextWrapper>
                     <TopLine>BioBach</TopLine>
-                    <Heading >Bio Mujer</Heading>
-                    <Subtitle>Indicado en trastornos femeninos como: ciclos menstruales irregulares,
-alteraciones en la menopausia, sofocos, calores nocturnos, cambios de carácter,
-irritabilidad, disminución de la libido y todo lo que conlleva.
+                    <Heading >Bio Peso Control</Heading>
+                    <Subtitle>Tratamiento que hace una limpieza orgánica e intestinal inicial, apoya en el
+control del apetito aumentando y desordenado, regula el metabolismo, calma
+la ansiedad por comer.
+
 </Subtitle>
-                    <Subtitle>Cabe aclarar que NO CONTIENE NINGUN TIPO DE HORMONAS, es un
-biorregulador adaptogénico (adapta al cuerpo al nuevo nivel hormonal). </Subtitle>
+                    <Subtitle>Se recomienda tomarlo no menos de 60 días, y es más efectivo si se acompaña
+de ejercicio tipo cardio moderado por 30 minutos diario y alimentación sana y
+equilibrada, tomar abundante agua.  </Subtitle>
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>
@@ -30,7 +32,7 @@ biorregulador adaptogénico (adapta al cuerpo al nuevo nivel hormonal). </Subtit
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon14} width="400px"/>
+                    <img src={Icon22} width="400px"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>
@@ -41,4 +43,4 @@ biorregulador adaptogénico (adapta al cuerpo al nuevo nivel hormonal). </Subtit
     )
 }
 
-export default ProductMujer
+export default ProductPesoControl

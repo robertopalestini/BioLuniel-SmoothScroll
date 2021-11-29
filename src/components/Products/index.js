@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {animateScroll as scroll, LinkS} from 'react-scroll';
 import Icon1 from '../../images/1-bioAnsiedadAngustia.png'
 import Icon2 from '../../images/2-bioDepresion-01.png'
 import Icon3 from '../../images/3-bioEstres-01.png'
@@ -33,38 +33,10 @@ import Swal from 'sweetalert2';
 import { Link } from 'react-router-dom'
 
 
+
 const Products = () => {
     
-    const ansiedad=()=>{
-        Swal.fire({
-            imageUrl: require("../../images/1-bioAnsiedadAngustia.png").default,
-            imageWidth: '200px',
 
-            title: 'Bio Ansiedad/Angustia',
-            text: 'Estado mental que se caracteriza por una gran inquietud, una intensa excitación y una extrema inseguridad. Las emociones presentes en los trastornos de ansiedad van desde el simple nerviosismo a episodios de terror o pánico, acompañada de angustia que muchas veces desencadena en neurosis. Nuestro producto esta recomendado para personas tendientes a ser nerviosas, preocupadas en extremo, angustia progresiva, trastornos, crisis de ansiedad reactiva generalizada, sudoración en manos o cuerpo y trastornos psicosomáticos por ansiedad. ',
-            footer: '<a href="">Contactar por Whatsapp</a>'
-          })
-    }
-    const depresion=()=>{
-        Swal.fire({
-            imageUrl: require('../../images/2-bioDepresion-01.png').default,
-            imageWidth: '200px',
-
-            title: 'Bio Depresión',
-            text: 'La Depresión es un trastorno emocional que causa un sentimiento de tristeza constante y una pérdida de interés en realizar diferentes actividades en períodos largos de tiempo. Existen 2 tipos de depresión, exógena y endógena, la primera causada por factores ambientales y psicológicos, la segunda causada por factores genéticos, hereditarios, este tipo de depresión no depende de la voluntad del paciente. La depresión puede comenzar a cualquier edad, pero suele empezar en la juventud. Es mucho más común en las mujeres, presentándose también la depresión postparto luego de dar a luz. Compuestos florales electromagnéticos: Agrimony, Gentian, Larch, Gorse entre otros. Nuestro producto puede ser utilizado en personas con trastornos depresivos persistentes severos o moderados en cuadros como depresión reactiva, depresión bipolar o intentos fallidos de suicidio, (es importante anotar que no debe suspenderse ni reemplazar la medicación química que el paciente este tomando) puede administrarse sólo o con otros productos sin tener riesgo de contraindicaciones.',
-            footer: '<a href="">Contactar por Whatsapp</a>'
-          })
-    }
-    const tristeza=()=>{
-        Swal.fire({
-            imageUrl: require('../../images/3-bioEstres-01.png').default,
-            imageWidth: '200px',
- 
-            title: 'Bio Tristeza',
-            text: 'La Tristeza puede ser también un síntoma de distimia, que se caracteriza, además, por un abatimiento general de la persona, por el descenso de la autoestima y los sentimientos de pesimismo, desesperanza y desamparo, causando tristeza profunda y crónica que puede incluir también pesimismo y disminución de la motivación, labilidad emocional. Nuestro producto está recomendado en individuos con personalidad triste, apagada, en circunstancias particulares, individuos tendientes a la soledad. Los síntomas más evidentes son el llanto, el desgano, el nerviosismo, suspiros frecuentes y profundos y el decaimiento moral.',
-            footer: '<a href="">Contactar por Whatsapp</a>'
-          })
-    }
     const arcilla=()=>{
         Swal.fire({
             imageUrl: require("../../images/bioarsilla-01.png").default,
@@ -95,132 +67,134 @@ const Products = () => {
           })
     }
 
-
+    const toggleHome = () => {
+        scroll.scrollToTop()
+    };
 
     return (
         <ProductsContainer id="products">
             <ProductsH1>Nuestras Esencias</ProductsH1>
             <ProductsWrapper>
-                <ProductsCard  onClick={()=>ansiedad()}>
+            <Link to="/bioansiedadangustia" onClick={toggleHome}><ProductsCard >
                     <ProductsIcon src={Icon1} />
                     <ProductsH2>Bio Ansiedad/Angustia</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard onClick={()=>depresion()}>
+                </ProductsCard></Link>
+                <Link to="/biodepresion" onClick={toggleHome}>   <ProductsCard >
                     <ProductsIcon src={Icon2} />
                     <ProductsH2>Bio Depresión</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard onClick={()=>tristeza()}>
+                </ProductsCard></Link>
+                <Link to="/biotristeza" onClick={toggleHome}><ProductsCard >
                     <ProductsIcon src={Icon7} />
                     <ProductsH2>Bio Tristeza</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <Link to="/bioproduct"><ProductsCard >
+                </ProductsCard></Link>
+                <Link to="/bioestres" onClick={toggleHome}><ProductsCard >
                     <ProductsIcon src={Icon3} />
                     <ProductsH2>Bio Estrés</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <Link to="/bioproductd"><ProductsCard>
+                <Link to="/bioira" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon4} />
                     <ProductsH2>Bio Ira</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <Link to="/bioresentimiento"><ProductsCard>
+                <Link to="/bioresentimiento" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon6} />
                     <ProductsH2>Bio Resentimiento</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <Link to="/biopaz"><ProductsCard>
+                <Link to="/biopaz" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon5} />
                     <ProductsH2>Bio Paz</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <Link to="/biorescate"><ProductsCard>
+                <Link to="/biorescate" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon8} />
                     <ProductsH2>Bio Rescate</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <Link to="/bioresistencia"><ProductsCard>
+                <Link to="/bioresistencia" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon9} />
                     <ProductsH2>Bio Resistencia (Bullying)</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <Link to="/bioinsomnio"><ProductsCard>
+                <Link to="/bioinsomnio" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon10} />
                     <ProductsH2>Bio Insomnio</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <Link to="/biomigrana"><ProductsCard>
+                <Link to="/biomigrana" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon11} />
                     <ProductsH2>Bio Migraña</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <Link to="/bioapetito"><ProductsCard>
+                <Link to="/bioapetito" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon12} />
                     <ProductsH2>Bio Apetito</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <ProductsCard>
+                <Link to="/biohombre" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon13} />
                     <ProductsH2>Bio Hombre</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/biomujer" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon14} />
                     <ProductsH2>Bio Mujer</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/biomemoria" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon15} />
                     <ProductsH2>Bio Memoria</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/bioconcentracion" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon16} />
                     <ProductsH2>Bio Concentración</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/biodigestion" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon17} />
                     <ProductsH2>Bio Digestión</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <Link to="/bioalergia"><ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/bioalergia" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon18} />
                     <ProductsH2>Bio Alergia</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <ProductsCard>
+                <Link to="/biodetox" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon19} />
                     <ProductsH2>Bio Detox</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <Link to="/biodefensas"><ProductsCard >
+                </ProductsCard></Link>
+                <Link to="/biodefensas" onClick={toggleHome}><ProductsCard >
                     <ProductsIcon src={Icon20} />
                     <ProductsH2>Bio Defensas</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <Link to="/biocolageno"><ProductsCard>
+                <Link to="/biocolageno" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon21} />
                     <ProductsH2>Bio Colágeno</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
                 </ProductsCard></Link>
-                <ProductsCard>
+                <Link to="/biopesocontrol" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon22} />
                     <ProductsH2>Bio Peso Control</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/biomiedotemor" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon23} />
                     <ProductsH2>Bio Miedo Temor</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/biolinfa" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon24} />
                     <ProductsH2>Bio Linfa</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
+                </ProductsCard></Link>
                  
             </ProductsWrapper>
 

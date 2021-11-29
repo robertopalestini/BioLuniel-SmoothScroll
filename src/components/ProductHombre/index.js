@@ -1,12 +1,12 @@
 import React from 'react'
 import { Button } from 'react-scroll';
-import Icon4 from '../../images/4-bioIra-01.png'
+import Icon13 from '../../images/bigsize/13-bioHombre.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
 import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
 
 
-const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
+const ProductHombre = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
     return (
         <>
         <HeroSectionP />
@@ -16,18 +16,16 @@ const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText,
                     <Column1>
                     <TextWrapper>
                     <TopLine>BioBach</TopLine>
-                    <Heading >Bio Ira</Heading>
-                    <Subtitle>Puede tener muchas consecuencias físicas y mentales, la ira, cólera (colerín),
-rabia, enojo o furia es una emoción que se expresa a través de la irritabilidad.
-Los efectos físicos de la ira incluyen aumento del ritmo cardíaco, de la
-irritabilidad, de la presión sanguínea y de los niveles de adrenalina.
-Cuando este estado de excitación permanece estamos más predispuestos a
-actuar en forma impulsiva llegando a emitir conductas agresivas, algunos ven la
-ira como parte de la respuesta cerebral de atacar o huir de una amenaza o daño
-percibido en otros casos este estimulo externo se pierde en el tiempo, pero
-persiste esta alteración emocional sin causa aparente.</Subtitle>
-                    <Subtitle>Nuestro producto justamente está recomendado para equilibrar esta emoción llevando a la
-persona a un control de sus acciones y evitando complicaciones con otros órganos. </Subtitle>
+                    <Heading >Bio Hombre</Heading>
+                    <Subtitle>Indicado en hombres con hipertrofia prostática benigna, también que estén
+cursando los períodos de falta de lívido, deseo sexual, andropausia, entre otras
+afecciones, más si esto se acompaña de alteraciones de la esfera emocional,
+además va a apoyar en regular y adaptar el estado funcional hormonal, estado de
+ánimo, fatiga, pérdida de energía, irritabilidad y cambio de actitud frente a la vida.
+</Subtitle>
+<Subtitle>Cabe aclarar que no contiene ningún tipo de hormonas, es un biorregulador
+adaptogénico (adapta al cuerpo al nuevo nivel hormonal).</Subtitle>
+                   
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>
@@ -35,7 +33,7 @@ persona a un control de sus acciones y evitando complicaciones con otros órgano
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon4} width="400px"/>
+                    <img src={Icon13} width="400px"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>
@@ -46,4 +44,4 @@ persona a un control de sus acciones y evitando complicaciones con otros órgano
     )
 }
 
-export default ProductD
+export default ProductHombre

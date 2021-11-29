@@ -4,10 +4,11 @@ import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
 import ProductC from '../components/ProductC'
 import { ProductCContainer } from '../components/ProductC/ProductCElements'
+import ProductMujer from '../components/ProductMujer'
 import Products from '../components/Products'
 import Sidebar from '../components/Sidebar'
 
-const BioProduct = () => {
+const BioMujer = () => {
 
         const [isOpen, setIsOpen] = useState(false)
     
@@ -18,11 +19,11 @@ const BioProduct = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
-            <ProductC />
+            <ProductMujer />
 
              <Footer />
         </>
     )
 }
 
-export default BioProduct
+export default BioMujer

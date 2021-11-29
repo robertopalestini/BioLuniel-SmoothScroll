@@ -1,13 +1,13 @@
 import React, {useState} from 'react'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
-import HeroSectionC from '../components/HeroSectionC'
+import HeroSectionE from '../components/HeroSectionE'
 import InfoSection from '../components/InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
 import Navbar from '../components/Navbar'
 import Products from '../components/Products'
 import Sidebar from '../components/Sidebar'
-import Image from '../images/hero.jpg'
+
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -23,7 +23,7 @@ const Home = () => {
              <HeroSection />
              <InfoSection {...homeObjOne}/>
              <InfoSection {...homeObjTwo}/>
-             <HeroSectionC />
+             <HeroSectionE />
              <InfoSection {...homeObjThree}/>
              <Footer />
         </>

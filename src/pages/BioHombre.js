@@ -2,11 +2,13 @@ import React, {useState} from 'react'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
-import ProductDefensas from '../components/ProductDefensas'
+import ProductC from '../components/ProductC'
 import { ProductCContainer } from '../components/ProductC/ProductCElements'
+import ProductHombre from '../components/ProductHombre'
+import Products from '../components/Products'
 import Sidebar from '../components/Sidebar'
 
-const BioDefensas = () => {
+const BioHombre = () => {
 
         const [isOpen, setIsOpen] = useState(false)
     
@@ -17,11 +19,11 @@ const BioDefensas = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
-            <ProductDefensas />
+            <ProductHombre />
 
              <Footer />
         </>
     )
 }
 
-export default BioDefensas
+export default BioHombre

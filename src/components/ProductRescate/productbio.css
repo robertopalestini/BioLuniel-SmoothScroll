@@ -17,3 +17,17 @@
   transition: all 0.2s ease-in-out;
   background: #010606;
 }
+
+.productoImagen {
+  width: 400px;
+}
+@media screen and (max-width: 1024px) {
+  .productoImagen {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .productoImagen {
+    width: 150px;
+  }
+}

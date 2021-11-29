@@ -8,7 +8,6 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: #fff;
 padding: 40px;
 
 @media screen and (max-width: 768px) {
@@ -50,7 +49,6 @@ align-items: center;
 border-radius: 10px;
 max-height: 340px;
 padding: 30px;
-
 box-shadow: 0 1px 3px rgba(0,0,0,0.2);
 transition: all 0.2s ease-in-out;
 
@@ -83,13 +81,11 @@ margin-top: 20px;
 export const ProductsH2 = styled.h2`
 font-size: 1rem;
 margin-bottom: 10px;
-color: #2e2c2b;
 `
 
 export const ProductsP = styled.p`
 font-size: 1rem;
 text-align: center;
-color: #2e2c2b;
 `
 
 export const ArrowForward = styled(MdArrowForward)`
