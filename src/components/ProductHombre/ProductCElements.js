@@ -120,3 +120,4 @@ transition: all 0.2s ease-in-out;
     background: ${({primary}) => (primary ? '#010606' : '#73d629')};
 }
 `
+

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Column1, Column2 } from '../ProductC/ProductCElements';
 import Map from '../../images/map-19.jpg'
-import { Container, FormWrap, Icon, FormContent, Form, FormH1, FormLabel, FormInput, FormButton, Text, ContactoWrapper, ContactoRow, ContactoH3} from './ContactElements';
+import { Container, FormH1, Text, ContactoWrapper, ContactoRow, ContactoH3} from './ContactElements';
 import './contactopage.css'
 import { BsFillEnvelopeFill, BsFillGeoAltFill, BsFillTelephoneFill } from "react-icons/bs";
 import { FaFacebook, FaWhatsapp} from 'react-icons/fa';
@@ -13,7 +13,7 @@ const Contact = () => {
                 <ContactoWrapper>
                     <ContactoRow>
                         <Column1>
-                        <img src={Map} className="mapaImagen"/>
+                        <img src={Map} className="mapaImagen" alt="Mapa de contacto Bio Luniel"/>
                             
                        </Column1>
                         <Column2>

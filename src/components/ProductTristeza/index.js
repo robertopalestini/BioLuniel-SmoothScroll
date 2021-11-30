@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button } from 'react-scroll';
 import Icon7 from '../../images/bigsize/7-bioTristeza.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductTristeza = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -34,7 +33,7 @@ frecuentes y profundos y el decaimiento moral.  </Subtitle>
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon7} width="400px"/>
+                    <img src={Icon7} width="400px" alt="Bio Tristeza"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

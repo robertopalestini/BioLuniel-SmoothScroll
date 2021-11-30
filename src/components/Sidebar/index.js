@@ -1,6 +1,6 @@
 import React from 'react'
 import {FaWhatsapp} from 'react-icons/fa'
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom'
 import { SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarMenu, SidebarLink, SideBtnWrap, SidebarRoute } from './SidebarElements';
 
 const Sidebar = ({isOpen, toggle }) => {
@@ -11,24 +11,28 @@ const Sidebar = ({isOpen, toggle }) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="about" onClick={toggle}>
-                        Esencias Florales
-                    </SidebarLink>
-                    <SidebarLink to="discover" onClick={toggle}>
-                        Descubri
-                    </SidebarLink>
-                    <SidebarLink to="products" onClick={toggle}>
+                <SidebarLink to="/nosotros" onClick={toggle}>
+                    <Link to="/nosotros" onClick={toggle}>
+                    Nosotros
+                    </Link>
+                </SidebarLink> 
+                <SidebarLink to="/productos" onClick={toggle}>
+                    <Link to="/productos" onClick={toggle}>
                         Productos
-                    </SidebarLink>
-                    <Link to="/nosotros"><SidebarLink to="/nosotros" onClick={toggle}>
-                        Nosotros
-                    </SidebarLink></Link>
-                    <SidebarLink to="signup" onClick={toggle}>
+                    </Link>
+                </SidebarLink>
+                <SidebarLink to="/contacto" onClick={toggle}>
+                    <Link to="/productos" onClick={toggle}>
                         Beneficios
-                    </SidebarLink>
+                    </Link>
+                </SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrap>
-                    <SidebarRoute to="/contact"><FaWhatsapp /></SidebarRoute>
+                    <SidebarRoute to="/contact">
+                    <Link to="/" onClick={toggle}>
+                        <FaWhatsapp />
+                        </Link>
+                        </SidebarRoute>
                 </SideBtnWrap>
             </SidebarWrapper>
         </SidebarContainer>

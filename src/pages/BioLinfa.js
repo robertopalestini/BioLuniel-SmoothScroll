@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import { ProductCContainer } from '../components/ProductC/ProductCElements'
 import ProductLinfa from '../components/ProductLinfa'
 
 import Sidebar from '../components/Sidebar'

@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button } from 'react-scroll';
 import Icon1 from '../../images/bigsize/1-bioAnsiedadAngustia.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductAnsiedadAngustia = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -33,7 +32,7 @@ psicosomáticos por ansiedad.   </Subtitle>
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon1} width="400px"/>
+                    <img src={Icon1} className="productoImagen" alt="Bio Ansiedad Angustia"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

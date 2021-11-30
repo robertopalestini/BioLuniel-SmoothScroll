@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button } from 'react-scroll';
 import Icon21 from '../../images/bigsize/21-bioColageno.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -29,7 +28,7 @@ como las superficies articulares saludables.</Subtitle>
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon21} className="productoImagen"/>
+                    <img src={Icon21} className="productoImagen" alt="Bio Colageno"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

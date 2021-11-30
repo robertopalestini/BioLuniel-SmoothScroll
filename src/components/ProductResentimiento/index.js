@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button } from 'react-scroll';
 import Icon6 from '../../images/bigsize/6-bioResentimiento.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -34,7 +33,7 @@ emocional. </Subtitle>
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon6} className="productoImagen"/>
+                    <img src={Icon6} className="productoImagen" alt="Bio Resentimiento"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button } from 'react-scroll';
 import Icon11 from '../../images/bigsize/11-bioMigrana.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductMigrana = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -34,7 +33,7 @@ erradica definitivamente.
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon11} className="productoImagen"/>
+                    <img src={Icon11} className="productoImagen" alt="Bio Migraña"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

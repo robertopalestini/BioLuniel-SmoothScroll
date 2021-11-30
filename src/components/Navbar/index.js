@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from 'react';
-import {FaBars, FaWhatsapp} from 'react-icons/fa'
+import {FaWhatsapp} from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
-import {animateScroll as scroll, Link} from 'react-scroll';
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, SocialIcons } from './NavbarElements';
+import {animateScroll as scroll} from 'react-scroll';
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink, MenuIcon } from './NavbarElements';
 
 
 
@@ -32,7 +32,7 @@ const toggleHome = () => {
                 <NavbarContainer>
                     <NavLogo to='/' onClick={toggleHome}>bioluniel</NavLogo>
                     <MobileIcon onClick={toggle}>
-                        <FaBars />
+                        <MenuIcon />
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>

@@ -81,11 +81,13 @@ margin-top: 20px;
 export const ProductsH2 = styled.h2`
 font-size: 1rem;
 margin-bottom: 10px;
+color: #2e2c2b;
 `
 
 export const ProductsP = styled.p`
 font-size: 1rem;
 text-align: center;
+color: #2e2c2b;
 `
 
 export const ArrowForward = styled(MdArrowForward)`

@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button } from 'react-scroll';
 import Icon15 from '../../images/bigsize/15-bioMemoria.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductMemoria = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -34,7 +33,7 @@ Nuestro producto es ideal para toda persona que necesite este apoyo. </Subtitle>
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon15} width="400px"/>
+                    <img src={Icon15} className="productoImagen" alt="Bio Memoria"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

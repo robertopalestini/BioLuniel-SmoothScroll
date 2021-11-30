@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button } from 'react-scroll';
 import Icon12 from '../../images/bigsize/12-bioApetito.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductApetito = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -31,7 +30,7 @@ alimentos, pérdida de masa muscula y fuerza.</Subtitle>
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon12} className="productoImagen"/>
+                    <img src={Icon12} className="productoImagen" alt="Bio Apetito"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

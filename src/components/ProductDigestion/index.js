@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button } from 'react-scroll';
 import Icon17 from '../../images/bigsize/17-bioDigestion.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductDigestion = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -28,7 +27,7 @@ como estreñimiento, colon irritable, diarreas funcionales o emocionales, etc. <
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon17} width="400px"/>
+                    <img src={Icon17} className="productoImagen" alt="Bio Digestion"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

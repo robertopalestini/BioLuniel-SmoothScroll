@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button } from 'react-scroll';
 import Icon19 from '../../images/bigsize/19-bioDetox.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -32,7 +31,7 @@ al día). </Subtitle>
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon19} width="400px"/>
+                    <img src={Icon19} className="productoImagen" alt="Bio Detox"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

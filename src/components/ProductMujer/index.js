@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button } from 'react-scroll';
 import Icon14 from '../../images/bigsize/14-bioMujer.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductMujer = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -30,7 +29,7 @@ biorregulador adaptogénico (adapta al cuerpo al nuevo nivel hormonal). </Subtit
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon14} width="400px"/>
+                    <img src={Icon14} className="productoImagen" alt="Bio Mujer"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

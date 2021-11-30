@@ -1,5 +1,5 @@
 import React from 'react'
-import {animateScroll as scroll, LinkS} from 'react-scroll';
+import {animateScroll as scroll} from 'react-scroll';
 import Icon1 from '../../images/1-bioAnsiedadAngustia.png'
 import Icon2 from '../../images/2-bioDepresion-01.png'
 import Icon3 from '../../images/3-bioEstres-01.png'
@@ -30,7 +30,7 @@ import Icon26 from '../../images/biocabello-01.png'
 import Icon27 from '../../images/bioarsilla-01.png'
 import {ProductsContainer, ProductsH1, ProductsWrapper, ProductsCard, ProductsIcon, ProductsIconBio, ProductsH2, ProductsP} from './ProductsElements'
 import Swal from 'sweetalert2';
-import { Link } from 'react-router-dom'
+    import { Link } from 'react-router-dom'
 
 
 

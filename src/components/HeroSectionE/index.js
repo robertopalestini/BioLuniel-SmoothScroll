@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 import {Button} from '../ButtonElement';
-import { HeroContainer, HeroBg, HeroBgImage, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElementsE';
+import { HeroContainer, HeroBg, HeroBgImage, HeroContent, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElementsE';
 import Icon1 from '../../images/1-bioAnsiedadAngustia.png'
 import Icon2 from '../../images/2-bioDepresion-01.png'
 import Icon7 from '../../images/7-bioTristeza-01.png'
-import {ProductsContainer, ProductsH1, ProductsWrapper, ProductsCard, ProductsIcon, ProductsIconBio, ProductsH2, ProductsP} from './ProductsElements'
-
+import {ProductsContainer, ProductsH1, ProductsWrapper, ProductsCard, ProductsIcon, ProductsH2, ProductsP} from './ProductsElements'
+import { Link } from 'react-router-dom'
+import {animateScroll as scroll} from 'react-scroll';
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false)
@@ -13,6 +14,10 @@ const HeroSection = () => {
     const onHover = () => {
         setHover(!hover)
     }
+
+    const toggleHome = () => {
+        scroll.scrollToTop()
+    };
 
     return (
         <HeroContainer id="home">
@@ -25,21 +30,21 @@ const HeroSection = () => {
             <ProductsContainer id="products">
             <ProductsH1>Nuestras Esencias</ProductsH1>
             <ProductsWrapper>
-                <ProductsCard>
+            <Link to="/bioansiedadangustia" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon1} />
                     <ProductsH2>Bio Ansiedad/Angustia</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/biodepresion" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon2} />
                     <ProductsH2>Bio Depresión</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
-                <ProductsCard>
+                </ProductsCard></Link>
+                <Link to="/biotristeza" onClick={toggleHome}><ProductsCard>
                     <ProductsIcon src={Icon7} />
                     <ProductsH2>Bio Tristeza</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard>
+                </ProductsCard></Link>
                 </ProductsWrapper>
                 </ProductsContainer>
                 <HeroBtnWrapper>

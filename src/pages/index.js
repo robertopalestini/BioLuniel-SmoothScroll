@@ -5,7 +5,6 @@ import HeroSectionE from '../components/HeroSectionE'
 import InfoSection from '../components/InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
 import Navbar from '../components/Navbar'
-import Products from '../components/Products'
 import Sidebar from '../components/Sidebar'
 
 

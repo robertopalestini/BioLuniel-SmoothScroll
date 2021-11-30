@@ -1,9 +1,8 @@
 import React from 'react'
-import { Button } from 'react-scroll';
 import Icon2 from '../../images/bigsize/2-bioDepresion.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductDepresion = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -39,7 +38,7 @@ contraindicaciones.</Subtitle>
                     </Column1>
                     <Column2>
                     <ImgWrap>
-                    <img src={Icon2} className="productoImagen"/>
+                    <img src={Icon2} className="productoImagen" alt="Bio Depresion"/>
                     </ImgWrap>
                     </Column2>
                 </InfoRow>

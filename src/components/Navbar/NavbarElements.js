@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { Link as LinkR} from 'react-router-dom'
-import { Link as LinkS } from 'react-scroll'
+import {FaBars} from 'react-icons/fa';
+
 
 
 export const SocialIcons = styled.div`
@@ -53,7 +54,7 @@ export const Nav = styled.nav`
     display: none;
 
     @media screen and (max-width: 768px) {
-        color: #ffffff;
+        color: #000;
         display: block;
         position: absolute;
         top: 0;
@@ -63,6 +64,10 @@ export const Nav = styled.nav`
         cursor: pointer;
     }
     `;
+
+    export const MenuIcon = styled(FaBars)`
+color: #000;
+`
 
     export const NavMenu = styled.ul`
     display: flex;
