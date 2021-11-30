@@ -30,7 +30,7 @@ import BioDetox from './pages/BioDetox';
 import BioPesoControl from './pages/BioPesoControl';
 import BioMiedoTemor from './pages/BioMiedoTemor';
 import BioLinfa from './pages/BioLinfa';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <Router>

@@ -2,8 +2,10 @@ import React, {useState} from 'react'
 import Footer from '../components/Footer';
 import HeroSectionN from '../components/HeroSectionN';
 import InfoSection from '../components/InfoSection'
+import TeamSection from '../components/TeamSection'
 import { homeObjFour, homeObjFive } from '../components/InfoSection/Data'
 import Navbar from '../components/Navbar'
+// or less ideally
 
 import Sidebar from '../components/Sidebar'
 
@@ -19,7 +21,8 @@ const Nosotros = () => {
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
             <HeroSectionN />
-             <InfoSection {...homeObjFour}/>
+            <TeamSection />
+            
              <InfoSection {...homeObjFive}/>
 
              <Footer />
