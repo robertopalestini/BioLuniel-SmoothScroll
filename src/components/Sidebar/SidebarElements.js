@@ -75,14 +75,13 @@ border-radius: 50px;
 background: #73d629;
 white-space: nowrap;
 padding: 15px 64px;
-color: #010606;
+color: #fff;
 font-size: 30px;
 outline: none;
 border: none;
 cursor: pointer;
 transition: all 0.2s ease-in-out;
 text-decoration:none;
-
 
 &:hover {
     transition: all 0.2s ease-in-out;

@@ -36,8 +36,7 @@ const toggleHome = () => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to='/productos'
-                            smooth={true} duration={700} spy={true} exact='true' offset={-80}
+                            <NavLinks to='/productos' onClick={toggleHome} 
                             >Productos</NavLinks>
                         </NavItem>
                         <NavItem>

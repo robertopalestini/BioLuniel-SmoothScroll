@@ -48,6 +48,10 @@ export const Nav = styled.nav`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+    &.hover {
+        color: #fff;
+        transition: 0.3s ease-out;
+    }
     `;
 
     export const MobileIcon = styled.div`
@@ -93,8 +97,11 @@ color: #000;
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+    font-weight: bold;
     
-    &.active {
+    &:hover {
+        color: #73d629;
+        transition: 0.3s ease-out;
         border-bottom: 3px solid #73d629;
     }
     `;

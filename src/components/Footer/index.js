@@ -32,10 +32,10 @@ const Footer = () => {
                  </FooterLinkItems>
                  <FooterLinkItems>
                     <FooterLinkTitle>Bio Bach</FooterLinkTitle>
-                        <FooterLink to="/">Bio Ansiedad/Angustia</FooterLink>
-                        <FooterLink to="/">Bio Depresion</FooterLink>
-                        <FooterLink to="/">Bio Digestion</FooterLink>
-                        <FooterLink to="/">Todos los Productos</FooterLink>
+                        <FooterLink to="/bioansiedad">Bio Ansiedad/Angustia</FooterLink>
+                        <FooterLink to="/biodepresion">Bio Depresion</FooterLink>
+                        <FooterLink to="/biodigestion">Bio Digestion</FooterLink>
+                        <FooterLink to="/productos">Todos los Productos</FooterLink>
                         <FooterLink to="/">Productos mas vendidos</FooterLink>
                         <FooterLink to="/">Ofertas</FooterLink>
                  </FooterLinkItems>
@@ -43,9 +43,9 @@ const Footer = () => {
             <FooterLinksWrapper>
                 <FooterLinkItems>
                     <FooterLinkTitle>Bio Natura</FooterLinkTitle>
-                        <FooterLink to="/">Bio Hombre</FooterLink>
-                        <FooterLink to="/">Bio Mujer</FooterLink>
-                        <FooterLink to="/">Bio Mujer</FooterLink>
+                        <FooterLink to="/biohombre">Bio Hombre</FooterLink>
+                        <FooterLink to="/biomujer">Bio Mujer</FooterLink>
+                        <FooterLink to="/bioapetito">Bio Apetito</FooterLink>
                  </FooterLinkItems>
                  <FooterLinkItems>
                     <FooterLinkTitle>Social Media</FooterLinkTitle>

@@ -86,6 +86,7 @@ margin-top: 32px;
 display: flex;
 flex-direction: column;
 align-items: center;
+text-decoration: none;
 `
 
 export const ArrowForward = styled(MdArrowForward)`
