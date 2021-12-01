@@ -31,8 +31,8 @@ const Footer = () => {
                         <FooterLink to="/contacto">Contacto</FooterLink>
                  </FooterLinkItems>
                  <FooterLinkItems>
-                    <FooterLinkTitle>Bio Bach</FooterLinkTitle>
-                        <FooterLink to="/bioansiedad">Bio Ansiedad/Angustia</FooterLink>
+                    <FooterLinkTitle>Lista de Productos</FooterLinkTitle>
+                        <FooterLink to="/bioansiedadangustia">Bio Ansiedad/Angustia</FooterLink>
                         <FooterLink to="/biodepresion">Bio Depresion</FooterLink>
                         <FooterLink to="/biodigestion">Bio Digestion</FooterLink>
                         <FooterLink to="/productos">Todos los Productos</FooterLink>
@@ -42,10 +42,17 @@ const Footer = () => {
             </FooterLinksWrapper>
             <FooterLinksWrapper>
                 <FooterLinkItems>
-                    <FooterLinkTitle>Bio Natura</FooterLinkTitle>
-                        <FooterLink to="/biohombre">Bio Hombre</FooterLink>
-                        <FooterLink to="/biomujer">Bio Mujer</FooterLink>
-                        <FooterLink to="/bioapetito">Bio Apetito</FooterLink>
+                    <FooterLinkTitle>Nosotros</FooterLinkTitle>
+                        <FooterLink to="/nosotros#four" >Nuestro Equipo</FooterLink>
+                        <FooterLink to="/nosotros#five">Beneficios de las esencias florales</FooterLink>
+                        <FooterLink to="/nosotros#six">¿Como actúan las esencias florales?</FooterLink>
+                        <FooterLink to="/nosotros#seven">¿Como tomar las esencias florales?</FooterLink>
+                        <FooterLink to="/nosotros#eight">¿Hay contraindicaciones de las esencias florales?</FooterLink>
+                        <FooterLink to="/nosotros#nine">Limpieza y Catarsis</FooterLink>
+                        <FooterLink to="/nosotros#ten">¿Que hacer si se tienen efectos secundarios?</FooterLink>
+                        <FooterLink to="/nosotros#eleven">¿Las esencias florales crean adicción?</FooterLink>
+                        <FooterLink to="/nosotros#twelve">Tiempo en que tienen efecto las esencias florales</FooterLink>
+                        <FooterLink to="/nosotros#thirdteen">Conservación</FooterLink>
                  </FooterLinkItems>
                  <FooterLinkItems>
                     <FooterLinkTitle>Social Media</FooterLinkTitle>
