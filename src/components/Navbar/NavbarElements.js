@@ -11,7 +11,7 @@ align-items: center;
 width: 240px;
 `
 export const Nav = styled.nav`
-    background: ${({scrollNav}) => (scrollNav ? 'beige' : 'transparent')};
+    background: ${({scrollNav}) => (scrollNav ? '#d1e0c5' : 'transparent')};
     height: 80px;
     margin-top: -80px;
     display: flex;
@@ -48,8 +48,8 @@ export const Nav = styled.nav`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
-    &.hover {
-        color: #fff;
+    &:hover {
+        color: #73d629;
         transition: 0.3s ease-out;
     }
     `;

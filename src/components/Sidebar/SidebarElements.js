@@ -30,6 +30,7 @@ background: transparent;
 font-size: 2rem;
 cursor: pointer;
 outline: none;
+color: #73d629;
 `;
 
 export const SidebarWrapper = styled.div`
@@ -55,14 +56,14 @@ text-decoration: none;
 list-style: none;
 transition: 0.2s ease-in-out;
 text-decoration: none;
-color: #fff;
+color: #73d629;
 cursor: pointer;
 margin-bottom: 40px;
 
 &:hover {
-    color: #73d629;
-    transition: 0.2s ease-in-out;
-}
+        color: #fff;
+        transition: 0.3s ease-out;
+    }
 `
 
 export const SideBtnWrap = styled.div`
@@ -85,8 +86,9 @@ text-decoration:none;
 
 &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #73d629
+    background: #488216;
+    color: #000000;
+    
 }
 `
 

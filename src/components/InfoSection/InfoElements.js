@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
 color:#000;
-background: ${({lightBg}) => (lightBg ? '#F9F9F9' : '#010606')};
-
+background: ${({lightBg}) => (lightBg ? '#F9F9F9' : '#d1e0c5')};
+padding: 30px 0;
 @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 30px 0;
 }
 `
 
@@ -13,25 +13,22 @@ export const InfoWrapper = styled.div`
 display: grid;
 z-index: 1;
 width: 100%;
-max-width: 1100px;
+max-width: auto;
+max-height: auto;
 margin-right: auto;
 margin-left: auto;
-padding: 30px 24px;
+padding: 20px 14px;
 justify-content: center;
 
 @media screen and (max-width: 768px) {
-    padding: 0 24px;
-    height: 800px;
+    padding: -40px 24px;
+    margin-top: -30px;
+    max-height: auto;
 }
 @media screen and (max-width:480px) {
-    padding: 0 24px;
-    height: 750px;
+    padding: -40px 24px;
+    max-height: auto;
 }
-@media screen and (max-width:479px) {
-    padding: 0 24px;
-    height: 800px;
-}
-
 
 `
 
@@ -61,11 +58,11 @@ grid-area: col2;
 export const TextWrapper = styled.div`
 max-width: 540px;
 padding-top: 0;
-padding-bottom: 60px;
+padding-bottom: 10px;
 `
 
 export const TopLine = styled.p`
-color: #73d629;
+color: #000;
 font-size: 16px;
 line-height: 16px;
 font-weight: 700;
@@ -92,6 +89,15 @@ margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
 color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
+
+@media screen and (max-width: 768px) {
+    font-size: 15px;
+    line-height: 18px;
+}
+@media screen and (max-width:480px) {
+    font-size: 13px;
+    line-height: 16px;
+}
 `
 
 export const BtnWrap = styled.div`

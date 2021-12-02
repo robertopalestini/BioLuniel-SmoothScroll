@@ -35,6 +35,10 @@ const toggleHome = () => {
                         <MenuIcon />
                     </MobileIcon>
                     <NavMenu>
+                    <NavItem>
+                            <NavLinks to='/' onClick={toggleHome} 
+                            >Inicio</NavLinks>
+                        </NavItem>
                         <NavItem>
                             <NavLinks to='/productos' onClick={toggleHome} 
                             >Productos</NavLinks>
@@ -47,7 +51,7 @@ const toggleHome = () => {
                         </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="/contact" onClick={toggleHome}><FaWhatsapp /></NavBtnLink>
+                            <NavBtnLink to="//api.whatsapp.com/send?phone=5930981701732&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" onClick={toggleHome}><FaWhatsapp /></NavBtnLink>
                         </NavBtn>
 
                 </NavbarContainer>
