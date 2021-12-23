@@ -2,7 +2,7 @@ import React from 'react'
 import Icon24 from '../../images/bigsize/24-bioLinfa.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductLinfa = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -30,6 +30,7 @@ El drenaje linfático estimula la microcirculación y reduce la hinchazón, muy 
 para mejorar la circulación sanguínea, eliminación de líquido intersticial y de las moléculas de gran
 tamaño, facilitando su evacuación, de esta manera ayudar a reducir los tiempos de recuperación.
 Reduce la sensación de piernas pesadas e hinchadas. </Subtitle>
+<Compuestos>Compuestos florales electromagnéticos: Beech, Vervain, Healing Herb, entre otros.  </Compuestos>
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>

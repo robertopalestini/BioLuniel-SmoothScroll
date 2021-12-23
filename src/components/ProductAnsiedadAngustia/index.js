@@ -1,6 +1,7 @@
 import React from 'react'
 import Icon1 from '../../images/bigsize/1-bioAnsiedadAngustia.png'
 import HeroSectionP from '../HeroSectionP';
+import { Compuestos } from '../ProductAlergia/ProductCElements';
 import './productbio.css'
 import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
@@ -25,6 +26,7 @@ acompañada de angustia que muchas veces desencadena en neurosis.
 preocupadas en extremo, angustia progresiva, trastornos, crisis de ansiedad
 reactiva generalizada, sudoración en manos o cuerpo y trastornos
 psicosomáticos por ansiedad.   </Subtitle>
+<Compuestos>Compuestos florales electromagnéticos: Holly, Aspen, Sweet, Chestnut, entre otros.  </Compuestos>
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>

@@ -2,7 +2,7 @@ import React from 'react'
 import Icon14 from '../../images/bigsize/14-bioMujer.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductMujer = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -22,6 +22,7 @@ irritabilidad, disminución de la libido y todo lo que conlleva.
 </Subtitle>
                     <Subtitle>Cabe aclarar que NO CONTIENE NINGUN TIPO DE HORMONAS, es un
 biorregulador adaptogénico (adapta al cuerpo al nuevo nivel hormonal). </Subtitle>
+<Compuestos>Compuestos florales electromagnéticos: Clematis, Larch, Olive, Star of Bethlehem, entre otras.  </Compuestos>
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>

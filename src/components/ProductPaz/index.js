@@ -2,7 +2,7 @@ import React from 'react'
 import Icon5 from '../../images/bigsize/5-bioPaz.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductPaz = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -21,7 +21,7 @@ impaciencia, hiperactividad sin causa específica, pensamientos negativos y
 perturbadores, arrastra problemas del pasado, no está alineado con su
 propósito de vida.
 Muy apropiado en los niños y adultos con hiperactividad. </Subtitle>
-                    
+<Compuestos>Compuestos florales electromagnéticos: Vervain, Clematis, Impatiens, Star of Bethlehem, entre otras.  </Compuestos>
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>

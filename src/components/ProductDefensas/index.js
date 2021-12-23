@@ -2,7 +2,7 @@ import React from 'react'
 import Icon20 from '../../images/bigsize/20-bioDefensas.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductDefensas = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -29,6 +29,7 @@ autoinmunes.</Subtitle>
                     <Subtitle>Nuestro producto esta recomendado para personas enfermizas o que padecen infecciones a
 repetición, que necesitan elevar sus defensas y que su cuerpo aprenda defenderse de agresiones
 externas e internas. </Subtitle>
+<Compuestos>Compuestos florales electromagnéticos: Aulaga, Mimulus, Start of Belem, Rose Rose, entre otras.  </Compuestos>
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>

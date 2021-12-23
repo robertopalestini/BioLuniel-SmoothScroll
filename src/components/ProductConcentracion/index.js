@@ -2,7 +2,7 @@ import React from 'react'
 import Icon16 from '../../images/bigsize/16-bioConcentracion.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductConcentracion = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -22,6 +22,7 @@ sucediendo ahora y que no tiene que ver con la acción concreta que se está
 llevando a cabo, problemas de Atención Dispersa. </Subtitle>
                     <Subtitle>La fata de concentración impacta muy negativamente en la propia autoestima y
 en las relaciones que se establece con los demás. </Subtitle>
+<Compuestos>Compuestos florales electromagnéticos: Clematis, ELM, Olive, entre otras.  </Compuestos>
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>

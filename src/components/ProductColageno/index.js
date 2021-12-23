@@ -2,7 +2,7 @@ import React from 'react'
 import Icon21 from '../../images/bigsize/21-bioColageno.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -20,7 +20,7 @@ const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText,
 necesario para mantener los tejidos blandos como la piel, pelo y uñas
 saludables, lograr que se mantengan los tejidos peri articulares y articulares, así
 como las superficies articulares saludables.</Subtitle>
-                    
+<Compuestos>Compuestos florales electromagnéticos: Pine, entre otras.  </Compuestos>
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>

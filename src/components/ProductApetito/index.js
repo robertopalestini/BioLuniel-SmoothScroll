@@ -1,6 +1,7 @@
 import React from 'react'
 import Icon12 from '../../images/bigsize/12-bioApetito.png'
 import HeroSectionP from '../HeroSectionP';
+import { Compuestos } from '../ProductC/ProductCElements';
 import './productbio.css'
 import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
@@ -23,6 +24,7 @@ cantidad.
 La pérdida de apetito puede provocar graves complicaciones, pérdida de peso
 que conlleva a que el cuerpo no reciba los nutrientes que necesita en los
 alimentos, pérdida de masa muscula y fuerza.</Subtitle>
+<Compuestos>Compuestos florales electromagnéticos: Gentian, Achicory, Wild Rose, entre otros.  </Compuestos>
                         <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>

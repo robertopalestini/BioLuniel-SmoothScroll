@@ -2,7 +2,7 @@ import React from 'react'
 import Icon17 from '../../images/bigsize/17-bioDigestion.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductDigestion = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -19,7 +19,7 @@ const ProductDigestion = ({lightBg, id, imgStart, topLine, lighText, headLine, d
                     <Subtitle>Indicado en personas con problemas de la esfera digestiva, ya sea por
 alteraciones gástricas como reflujo, gastritis, alteraciones del tránsito intestinal
 como estreñimiento, colon irritable, diarreas funcionales o emocionales, etc. </Subtitle>
-                    
+<Compuestos>Compuestos florales electromagnéticos: Walnut, Gencian, Crab Apple, entre otras.  </Compuestos>
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>

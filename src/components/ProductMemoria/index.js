@@ -2,7 +2,7 @@ import React from 'react'
 import Icon15 from '../../images/bigsize/15-bioMemoria.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductMemoria = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -26,6 +26,7 @@ confusión, que provoca a menudo bloqueos.
 fases), paramnesis (perturbación de la memoria especialmente la que hace que
 uno no pueda recordar el sentido de las palabras), alteraciones de la memoria de fijación.
 Nuestro producto es ideal para toda persona que necesite este apoyo. </Subtitle>
+<Compuestos>Compuestos florales electromagnéticos: Honey Suckle, Wild Oat, Clematis, entre otras.  </Compuestos>
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>

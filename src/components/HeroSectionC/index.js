@@ -22,7 +22,7 @@ const HeroSection = () => {
                 Contacto
                 </HeroH1>
                 <HeroP>
-                Medios de comunicación
+                Como podemos ayudarte?
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to="/productos" onMouseEnter={onHover} onMouseLeave={onHover}

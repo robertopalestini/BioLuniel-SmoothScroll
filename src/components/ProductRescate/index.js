@@ -2,7 +2,7 @@ import React from 'react'
 import Icon8 from '../../images/bigsize/8-bioRescate.png'
 import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductRescate = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -23,7 +23,7 @@ un shock y por ello alteren nuestra salud emocional y física.
 Como su nombre lo indica rescatamos a la persona para que no caiga en
 cuadros de depresión y otras alteraciones emocionales que puedan causar
 más daño. </Subtitle>
-                    
+<Compuestos>Compuestos florales electromagnéticos: Vervain, Clematis, Impatiens, Star of Bethelehem, entre otros.  </Compuestos>
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>

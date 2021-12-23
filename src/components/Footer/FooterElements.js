@@ -86,7 +86,6 @@ text-decoration:none;
 `
 
 export const SocialLogo = styled(Link)`
-
 color: #fff;
 justify-self: start;
 cursor: pointer;

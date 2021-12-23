@@ -18,11 +18,11 @@ justify-content: center;
 
 @media screen and (max-width: 768px) {
     padding: 0 24px;
-    height: 800px;
+    height: 700px;
 }
 @media screen and (max-width:480px) {
     padding: 0 24px;
-    height: 750px;
+    height: 700px;
 }
 
 `
@@ -89,6 +89,19 @@ color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
     font-size: 12px;
 }
 `
+export const Compuestos = styled.p`
+max-width: 440px;
+margin-bottom: 35px;
+font-size: 18px;
+line-height: 24px;
+font-style: italic;
+color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
+
+@media screen and (max-width:768px) {
+    font-size: 12px;
+}
+`
+
 
 export const BtnWrap = styled.div`
 display: flex;
