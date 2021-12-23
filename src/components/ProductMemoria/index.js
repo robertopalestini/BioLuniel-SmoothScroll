@@ -1,6 +1,5 @@
 import React from 'react'
 import Icon15 from '../../images/bigsize/15-bioMemoria.png'
-import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
 import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
@@ -8,7 +7,6 @@ import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper
 const ProductMemoria = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
     return (
         <>
-        <HeroSectionP />
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>

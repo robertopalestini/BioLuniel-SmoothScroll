@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from 'react-scroll';
 import Icon4 from '../../images/4-bioIra-01.png'
-import HeroSectionP from '../HeroSectionP';
+
 import './productbio.css'
 import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './ProductCElements';
 
@@ -9,7 +9,7 @@ import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper
 const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
     return (
         <>
-        <HeroSectionP />
+
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
@@ -28,6 +28,7 @@ percibido en otros casos este estimulo externo se pierde en el tiempo, pero
 persiste esta alteración emocional sin causa aparente.</Subtitle>
                     <Subtitle>Nuestro producto justamente está recomendado para equilibrar esta emoción llevando a la
 persona a un control de sus acciones y evitando complicaciones con otros órganos. </Subtitle>
+<Compuestos>Compuestos florales electromagnéticos: Walnut, Hornbean, Larch, entre otras.  </Compuestos>
                     <BtnWrap>
                                 <button className="boton">WhatsApp</button>
                             </BtnWrap>

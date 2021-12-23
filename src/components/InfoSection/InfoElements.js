@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-color:#000;
+color:#2f2e41;
 background: ${({lightBg}) => (lightBg ? '#F9F9F9' : '#d1e0c5')};
 padding: 30px 0;
 @media screen and (max-width: 768px) {
@@ -62,7 +62,7 @@ padding-bottom: 10px;
 `
 
 export const TopLine = styled.p`
-color: #000;
+color: #2f2e41;
 font-size: 16px;
 line-height: 16px;
 font-weight: 700;

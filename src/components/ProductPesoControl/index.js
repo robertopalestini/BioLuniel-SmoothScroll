@@ -1,6 +1,5 @@
 import React from 'react'
 import Icon22 from '../../images/bigsize/22-bioPeso.png'
-import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
 import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
@@ -8,7 +7,6 @@ import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper
 const ProductPesoControl = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
     return (
         <>
-        <HeroSectionP />
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>

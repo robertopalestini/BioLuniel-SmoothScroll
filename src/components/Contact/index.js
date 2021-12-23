@@ -23,10 +23,10 @@ const Contact = () => {
                         <FormH1>Página de contacto</FormH1>
                             <ContactoH3><ImMail4 class="iconos" size="1.5em" fill="rgb(0, 0, 0)"/> bioluniel@hotmail.com</ContactoH3>
                             <ContactoH3><FaFacebook class="iconos" size="1.5em" fill="rgb(0, 0, 0)"/> /Acupunturaenquito</ContactoH3>
-                            <ContactoH3><FaWhatsapp class="iconos" size="1.5em" fill="rgb(0, 0, 0)"/> +593  510 1800 / 0981 701 732</ContactoH3>
+                            <ContactoH3><FaWhatsapp class="iconos" size="1.5em" fill="rgb(0, 0, 0)"/> +593 988-363602 / 0981 701 732</ContactoH3>
                             <ContactoH3><MdShareLocation class="iconos" size="1.5em" fill="rgb(0, 0, 0)"/> Franciscvo Pizarro N26-14 y Santa María, Edif. Salgado</ContactoH3>
 
-                            <Link to="//https://api.whatsapp.com/send?phone=5930981701732&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel"><Text> <button className="boton"><FaWhatsapp class="iconos" /> WhatsApp</button></Text></Link>
+                            <Link to="//api.whatsapp.com/send?phone=593988363602&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" target="_blank"><Text> <button className="boton"><FaWhatsapp class="iconos" /> WhatsApp</button></Text></Link>
                         </Column2>
                         
                         </ContactoRow>

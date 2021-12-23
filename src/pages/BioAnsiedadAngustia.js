@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import Footer from '../components/Footer'
+import HeroSectionP from '../components/HeroSectionP'
 import Navbar from '../components/Navbar'
 import ProductAnsiedadAngustia from '../components/ProductAnsiedadAngustia'
 import Sidebar from '../components/Sidebar'
@@ -15,6 +16,7 @@ const BioAnsiedadAngustia = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
+            <HeroSectionP />
             <ProductAnsiedadAngustia />
 
              <Footer />

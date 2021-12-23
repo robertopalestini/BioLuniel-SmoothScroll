@@ -21,15 +21,22 @@ const HeroSection = () => {
                 <HeroH1>
                 Mejorando tu vida
                 </HeroH1>
-                <HeroP>
-                Con nuestras Esencias Florales.
-                </HeroP>
+                
                 <HeroBtnWrapper>
                     <Button to="/productos" onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
                     dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80}
                     >
-                        Productos Bio BACH {hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                        Productos Bio Bach {hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                        
+                </HeroBtnWrapper>
+                <HeroBtnWrapper>
+                    <Button to="/productos" onMouseEnter={onHover} onMouseLeave={onHover}
+                    primary="true"
+                    dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                    >
+                        Productos Bio Natura {hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                        
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

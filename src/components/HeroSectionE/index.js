@@ -7,8 +7,43 @@ import Icon7 from '../../images/7-bioTristeza-01.png'
 import {ProductsContainer, ProductsH1, ProductsWrapper, ProductsCard, ProductsIcon, ProductsH2, ProductsP} from './ProductsElements'
 import { Link } from 'react-router-dom'
 import {animateScroll as scroll} from 'react-scroll';
+import Swal from 'sweetalert2';
+
 
 const HeroSection = () => {
+
+// Bio Bach
+const ansiedad=()=>{
+    Swal.fire({
+        imageUrl: require("../../images/1-bioAnsiedadAngustia.png").default,
+        imageWidth: '200px',
+
+        title: 'Bio Ansiedad/Angustia',
+        text: 'Nuestro producto esta recomendado para personas tendientes a ser nerviosas, preocupadas en extremo, angustia progresiva, trastornos, crisis de ansiedad reactiva generalizada, sudoración en manos o cuerpo y trastornos psicosomáticos por ansiedad.',
+        footer: '<a href="">Contactar por Whatsapp</a>',
+      })
+}
+const depresion=()=>{
+    Swal.fire({
+        imageUrl: require("../../images/2-bioDepresion-01.png").default,
+        imageWidth: '200px',
+
+        title: 'Bio Depresión',
+        text: 'Nuestro producto puede ser utilizado en personas con trastornos depresivos persistentes severos o moderados en cuadros como depresión reactiva, depresión bipolar o intentos fallidos de suicidio, (es importante anotar que no debe suspenderse ni reemplazar la medicación química que el paciente este tomando) puede administrarse sólo o con otros productos sin tener riesgo de contraindicaciones. ',
+        footer: '<a href="">Contactar por Whatsapp</a>',
+      })
+}
+const tristeza=()=>{
+    Swal.fire({
+        imageUrl: require("../../images/7-bioTristeza-01.png").default,
+        imageWidth: '200px',
+
+        title: 'Bio Tristeza',
+        text: 'Nuestro producto está recomendado en individuos con personalidad triste, apagada, en circunstancias particulares, individuos tendientes a la soledad. Los síntomas más evidentes son el llanto, el desgano, el nerviosismo, suspiros frecuentes y profundos y el decaimiento moral. ',
+        footer: '<a href="">Contactar por Whatsapp</a>',
+      })
+}
+
     const [hover, setHover] = useState(false)
 
     const onHover = () => {
@@ -28,23 +63,29 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
             <ProductsContainer id="products">
-            <ProductsH1>Nuestras Esencias</ProductsH1>
+            <ProductsH1>Bio Bach</ProductsH1>
             <ProductsWrapper>
-            <Link to="/bioansiedadangustia" onClick={toggleHome}><ProductsCard>
-                    <ProductsIcon src={Icon1} />
+            <ProductsCard >
+                    <ProductsIcon src={Icon1} onClick={()=>ansiedad()} />
+                    <Link to="/bioansiedadangustia" onClick={toggleHome}>
                     <ProductsH2>Bio Ansiedad/Angustia</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard></Link>
-                <Link to="/biodepresion" onClick={toggleHome}><ProductsCard>
-                    <ProductsIcon src={Icon2} />
+                    </Link>
+            </ProductsCard>
+                <ProductsCard >
+                    <ProductsIcon src={Icon2} onClick={()=>depresion()}/>
+                    <Link to="/biodepresion" onClick={toggleHome}>   
                     <ProductsH2>Bio Depresión</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard></Link>
-                <Link to="/biotristeza" onClick={toggleHome}><ProductsCard>
-                    <ProductsIcon src={Icon7} />
+                    </Link>
+                </ProductsCard>
+                <ProductsCard >
+                    <ProductsIcon src={Icon7} onClick={()=>tristeza()} />
+                    <Link to="/biotristeza" onClick={toggleHome}>
                     <ProductsH2>Bio Tristeza</ProductsH2>
                     <ProductsP>Ver más</ProductsP>
-                </ProductsCard></Link>
+                    </Link>
+                </ProductsCard>
                 </ProductsWrapper>
                 </ProductsContainer>
                 <HeroBtnWrapper>

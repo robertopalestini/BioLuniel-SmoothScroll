@@ -3,6 +3,7 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import ProductConcentracion from '../components/ProductConcentracion'
+import HeroSectionP from '../components/HeroSectionP'
 
 const BioConcentracion = () => {
 
@@ -15,6 +16,7 @@ const BioConcentracion = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
+            <HeroSectionP />
             <ProductConcentracion />
 
              <Footer />

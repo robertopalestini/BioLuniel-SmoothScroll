@@ -30,7 +30,7 @@ const toggleHome = () => {
         <IconContext.Provider value={{ color: '#fff'}}>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/' onClick={toggleHome}>bioluniel</NavLogo>
+                    <NavLogo to='/' onClick={toggleHome}>Bio Luniel</NavLogo>
                     <MobileIcon onClick={toggle}>
                         <MenuIcon />
                     </MobileIcon>
@@ -51,7 +51,7 @@ const toggleHome = () => {
                         </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="//api.whatsapp.com/send?phone=5930981701732&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" onClick={toggleHome}><FaWhatsapp /></NavBtnLink>
+                            <NavBtnLink to="//api.whatsapp.com/send?phone=593988363602&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" target="_blank" onClick={toggleHome}><FaWhatsapp /></NavBtnLink>
                         </NavBtn>
 
                 </NavbarContainer>

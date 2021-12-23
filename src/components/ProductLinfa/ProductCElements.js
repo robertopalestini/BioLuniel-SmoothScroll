@@ -89,7 +89,7 @@ color: ${({darkText}) => (darkText ? '#010606' : '#010606')};
 export const Compuestos = styled.p`
 max-width: 440px;
 margin-bottom: 35px;
-font-size: 18px;
+font-size: 14px;
 line-height: 24px;
 font-style: italic;
 color: ${({darkText}) => (darkText ? '#010606' : '#010606')};

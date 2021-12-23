@@ -30,6 +30,12 @@ import BioDetox from './pages/BioDetox';
 import BioPesoControl from './pages/BioPesoControl';
 import BioMiedoTemor from './pages/BioMiedoTemor';
 import BioLinfa from './pages/BioLinfa';
+import BioArtritis from './pages/BioArtritis';
+import BioCristal from './pages/BioCristal';
+import BioCabello from './pages/BioCabello';
+import BioArcilla from './pages/BioArcilla';
+import InfoProductos from './pages/InfoProductos';
+
 function App() {
   return (
     <Router>
@@ -39,6 +45,7 @@ function App() {
         <Route path="/nosotros" element={<Nosotros />} exact />
         <Route path="/contacto" element={<ContactPage />} exact />
         <Route path="/productos" element={<Productos />} exact />
+        <Route path="/infoproductos" element={<InfoProductos />} exact />
         <Route path="/bioansiedadangustia" element={<BioAnsiedadAngustia />} exact />
         <Route path="/biodepresion" element={<BioDepresion />} exact />
         <Route path="/biotristeza" element={<BioTristeza />} exact />
@@ -64,6 +71,10 @@ function App() {
         <Route path="/bioresistencia" element={<BioResistencia />} exact />
         <Route path="/bioinsomnio" element={<BioInsomnio />} exact />
         <Route path="/biomigrana" element={<BioMigrana />} exact />
+        <Route path="/bioartritis" element={<BioArtritis />} exact />
+        <Route path="/biocristal" element={<BioCristal />} exact />
+        <Route path="/biocabellosano" element={<BioCabello />} exact />
+        <Route path="/bioarcilla" element={<BioArcilla />} exact />
       </Routes>
 
     </Router>

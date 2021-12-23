@@ -39,7 +39,7 @@ export const Nav = styled.nav`
     `;
 
     export const NavLogo = styled(LinkR)`
-    color: #000;
+    color: #2f2e41;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -58,7 +58,7 @@ export const Nav = styled.nav`
     display: none;
 
     @media screen and (max-width: 768px) {
-        color: #000;
+        color: #2f2e41;
         display: block;
         position: absolute;
         top: 0;
@@ -70,7 +70,7 @@ export const Nav = styled.nav`
     `;
 
     export const MenuIcon = styled(FaBars)`
-color: #000;
+color: #2f2e41;
 `
 
     export const NavMenu = styled.ul`
@@ -90,7 +90,7 @@ color: #000;
     `;
 
     export const NavLinks = styled(LinkR)`
-    color: #000;
+    color: #2f2e41;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -130,7 +130,7 @@ color: #000;
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #488216;
-        color: #000000;
+        color: #2f2e41;
         
     }
     `

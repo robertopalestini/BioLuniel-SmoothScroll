@@ -1,6 +1,6 @@
 import React from 'react'
 import Icon18 from '../../images/18-bioAlergia.png'
-import HeroSectionP from '../HeroSectionP';
+
 import './productbio.css'
 import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, Compuestos, BtnWrap, ImgWrap} from './ProductCElements';
 
@@ -8,7 +8,7 @@ import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper
 const ProductAlergia = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
     return (
         <>
-        <HeroSectionP />
+
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>

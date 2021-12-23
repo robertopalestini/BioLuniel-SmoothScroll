@@ -1,6 +1,5 @@
 import React from 'react'
 import Icon8 from '../../images/bigsize/8-bioRescate.png'
-import HeroSectionP from '../HeroSectionP';
 import './productbio.css'
 import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
@@ -8,7 +7,6 @@ import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper
 const ProductRescate = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
     return (
         <>
-        <HeroSectionP />
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
@@ -19,8 +17,8 @@ const ProductRescate = ({lightBg, id, imgStart, topLine, lighText, headLine, dar
                     <Subtitle>Fórmula de emergencia (podemos tenerla en el botiquín), para ser usada en
 situaciones mal definidas como pérdida de un ser querido, término de una
 relación, pérdida del trabajo o cualquier situación que ese momento nos cause
-un shock y por ello alteren nuestra salud emocional y física.
-Como su nombre lo indica rescatamos a la persona para que no caiga en
+un shock y por ello alteren nuestra salud emocional y física.</Subtitle>
+<Subtitle>Como su nombre lo indica rescatamos a la persona para que no caiga en
 cuadros de depresión y otras alteraciones emocionales que puedan causar
 más daño. </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Vervain, Clematis, Impatiens, Star of Bethelehem, entre otros.  </Compuestos>

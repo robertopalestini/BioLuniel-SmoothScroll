@@ -56,7 +56,7 @@ const Footer = () => {
                  </FooterLinkItems>
                  <FooterLinkItems>
                     <FooterLinkTitle>Social Media</FooterLinkTitle>
-                    <FooterLink to="//api.whatsapp.com/send?phone=5930981701732&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" target="_blank" >WhatsApp</FooterLink>
+                    <FooterLink to="//api.whatsapp.com/send?phone=593988363602&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" target="_blank" >WhatsApp</FooterLink>
                         <FooterLink to="/">Instagram</FooterLink>
                         <FooterLink to="//https://www.facebook.com/acupunturaenquito/">Facebook</FooterLink>
                         <FooterLink to="/">Youtube</FooterLink>
@@ -68,9 +68,9 @@ const Footer = () => {
         <SocialMedia>
             <SocialMediaWrap>
                     <SocialLogo to='/' onClick={toggleHome}>
-                    bioluniel
+                    Bio Luniel
                 </SocialLogo>
-                <WebsiteRights>bioluniel © {new Date().getFullYear()} copyright. All rights reserved </WebsiteRights>
+                <WebsiteRights>Bio Luniel © {new Date().getFullYear()} copyright. All rights reserved </WebsiteRights>
                 </SocialMediaWrap>
                 <SocialMediaWrap>
                     <SocialIcons>
@@ -83,7 +83,7 @@ const Footer = () => {
                         <SocialIconLink href='/' target="_blank" aria-label=">Twitter"><FaTwitter /></SocialIconLink>
                     </SocialIcons>
                     <SocialIcons>
-                        <SocialIconLink href='//api.whatsapp.com/send?phone=5930981701732&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel"' target="_blank" aria-label="WhatsApp"><FaWhatsapp /></SocialIconLink>
+                        <SocialIconLink href='//api.whatsapp.com/send?phone=593988363602&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel"' target="_blank" aria-label="WhatsApp"><FaWhatsapp /></SocialIconLink>
                     </SocialIcons>
                     </SocialMediaWrap>
         

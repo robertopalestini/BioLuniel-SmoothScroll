@@ -35,7 +35,7 @@ const Sidebar = ({isOpen, toggle }) => {
                 </SidebarMenu>
                 <SideBtnWrap>
                     <SidebarRoute to="/contact">
-                    <Link to="//api.whatsapp.com/send?phone=5930981701732&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" onClick={toggle}>
+                    <Link to="//api.whatsapp.com/send?phone=593988363602&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" onClick={toggle}>
                         <FaWhatsapp />
                         </Link>
                         </SidebarRoute>
