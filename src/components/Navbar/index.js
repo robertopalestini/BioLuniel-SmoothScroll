@@ -51,7 +51,7 @@ const toggleHome = () => {
                         </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="//api.whatsapp.com/send?phone=593988363602&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" target="_blank" onClick={toggleHome}><FaWhatsapp /><span>+593 988-363602</span></NavBtnLink>
+                        <NavBtnLink to="//api.whatsapp.com/send?phone=593988363602&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" target="_blank" onClick={toggleHome}><FaWhatsapp /><span>+593 988-363602</span></NavBtnLink>
                         </NavBtn>
 
                 </NavbarContainer>

@@ -31,7 +31,6 @@ import Icon27 from '../../images/bioarsilla-01.png'
 import {ProductsContainer, ProductsH1, ProductsWrapper, ProductsCard, ProductsIcon, ProductsIconBio, ProductsH2, ProductsP} from './ProductsElements'
 import Swal from 'sweetalert2';
     import { Link } from 'react-router-dom'
-    
 
 
 
