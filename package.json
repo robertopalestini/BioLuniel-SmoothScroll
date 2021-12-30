@@ -1,6 +1,9 @@
 {
   "name": "bioluniel-smoothscroll",
   "version": "0.1.0",
+  "engines": {
+    "node": "^14.18.1"
+  },
   "private": true,
   "dependencies": {
     "@szhsin/react-menu": "^2.3.0",
