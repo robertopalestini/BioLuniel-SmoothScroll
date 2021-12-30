@@ -1,11 +1,11 @@
 
 export const homeObjOne = {
-    id: 'about',
+    id: 'bioluniel',
     lightBg: true,
     lighText: true,
     lighTextDesc: true,
-    topLine: '(FLORES DE BACH)',
-    headLine: 'LAS ESENCIAS FLORALES Y SU ORIGEN',
+    topLine: '(Flores de Bach)',
+    headLine: 'Las esencias florales y su origen',
     description: 'Las Esencias Florales (Flores de Bach) son una serie de elixires naturales de ciertas flores, utilizadas para tratar alteraciones de la esfera emocional, fueron descubiertas por Edward Bach entre los años 1926 y 1934.',
     descriptiontwo: ' El Dr. Bach fue un gran investigador, además de médico y homeópata, quien descubrió y experimentó con diversas flores silvestres nativas de la región de Gales, en Gran Bretaña, de donde él era originario, hasta encontrar 38 remedios naturales, cada uno con propiedades curativas para distintos problemas emocionales, a estas 38 diferentes esencias se les llaman Flores de Bach, también se les conoce con el nombre de esencias florales de Bach o de elíxires florales de Bach. ',
     buttonLabel: 'Comprar por WhatsApp',
@@ -19,12 +19,12 @@ export const homeObjOne = {
 
 
     export const homeObjTwo = {
-        id: 'discover',
+        id: 'esencias',
         lightBg: true,
         lighText: false,
         lighTextDesc: true,
-        topLine: 'LAS ESENCIAS FLORALES (FLORES DE BACH) Y SU ORIGEN',
-        headLine: '¿COMO ACTÚAN LAS ESENCIAS FLORALES?',
+        topLine: 'Las esencias florales (Flores de Bach) y su origen',
+        headLine: '¿Como actúan las esencias florales?',
         description: 'Los elixires Florales poseen una cualidad que está dada por la conformación electromagnética, lumínica y armónica de sus partículas que, al entrar en contacto con un campo energético en desarmonía, es capaz de armonizarlo.',
         
         buttonLabel: 'Productos',
@@ -43,7 +43,7 @@ export const homeObjThree = {
     lighText: false,
     lighTextDesc: false,
     topLine: 'Bio Luniel',
-    headLine: 'BENEFICIOS DE LAS ESENCIAS FLORALES:',
+    headLine: 'Beneficios de las esencias florales:',
     description: 'Acelera los tiempos de recuperación, reduce el plazo de los tratamientos convencionales entre 50% a 70%, por ello es utilizado por médicos, psicólogos y psiquiatras con cosmovisión Holística.',
     descriptiontwo: 'Una vez concluido el tratamiento la enfermedad desaparece en forma definitiva, ya que la curación proviene de una evolución interior. “La lección aprendida no se puede desaprender”.',
     buttonLabel: 'Products',
@@ -58,12 +58,12 @@ export const homeObjThree = {
 
         
     export const homeObjFour = {
-        id: 'four',
+        id: 'equipo',
         lightBg: true,
         lighText: false,
         lighTextDesc: false,
         topLine: 'Bio Luniel',
-        headLine: 'NUESTRO EQUIPO',
+        headLine: 'Nuestro Equipo',
         description: 'Nuestro equipo está compuesto por expertos globales, profesionales apasionados cuya motivación y dedicación a su trabajo es vital para el éxito de Bio Luniel.',
         descriptiontwo: '',
         buttonLabel: '',
@@ -80,7 +80,7 @@ export const homeObjThree = {
 
         
         export const homeObjFive = {
-            id: 'five',
+            id: 'cualidad',
             lightBg: true,
             lighText: false,
             lighTextDesc: false,
@@ -101,7 +101,7 @@ export const homeObjThree = {
                     
             
             export const homeObjSix = {
-                id: 'six',
+                id: 'beneficios',
                 lightBg: false,
                 lighText: false,
                 lighTextDesc: false,
@@ -122,7 +122,7 @@ export const homeObjThree = {
                                 
             
                 export const homeObjSeven = {
-                    id: 'seven',
+                    id: 'comotomar',
                     lightBg: false,
                     lighText: false,
                     lighTextDesc: false,
@@ -144,7 +144,7 @@ export const homeObjThree = {
 
 
                     export const homeObjEight = {
-                        id: 'eight',
+                        id: 'contraindicaciones',
                         lightBg: true,
                         lighText: false,
                         lighTextDesc: false,
@@ -163,7 +163,7 @@ export const homeObjThree = {
                         };
                         
                         export const homeObjNine = {
-                            id: 'nine',
+                            id: 'liempiezaycatarsis',
                             lightBg: false,
                             lighText: false,
                             lighTextDesc: false,
@@ -183,7 +183,7 @@ export const homeObjThree = {
                             
 
                             export const homeObjTen = {
-                                id: 'ten',
+                                id: 'efectossecundarios',
                                 lightBg: true,
                                 lighText: false,
                                 lighTextDesc: false,
@@ -206,7 +206,7 @@ export const homeObjThree = {
                                 };
                             
                                 export const homeObjEleven = {
-                                    id: 'eleven',
+                                    id: 'adiccion',
                                     lightBg: false,
                                     lighText: false,
                                     lighTextDesc: false,
@@ -225,7 +225,7 @@ export const homeObjThree = {
                                     };
                                     
                                     export const homeObjTwelve = {
-                                        id: 'twelve',
+                                        id: 'tiempo',
                                         lightBg: true,
                                         lighText: false,
                                         lighTextDesc: false,
@@ -244,7 +244,7 @@ export const homeObjThree = {
                                         };
                                         
                                         export const homeObjThirdteen = {
-                                            id: 'thirdteen',
+                                            id: 'conservacion',
                                             lightBg: false,
                                             lighText: true,
                                             lighTextDesc: true,

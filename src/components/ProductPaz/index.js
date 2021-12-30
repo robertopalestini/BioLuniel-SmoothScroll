@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon5 from '../../images/bigsize/5-bioPaz.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductPaz = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductPaz = ({lightBg, id, imgStart, topLine, lighText, headLine, darkTex
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Paz</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon5} className="productoImagen" alt="Bio Paz"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Paz</Heading>
+                    
                     <Subtitle>Indicado para estabilizar el estado emocional en casos de intranquilidad,
 impaciencia, hiperactividad sin causa específica, pensamientos negativos y
 perturbadores, arrastra problemas del pasado, no está alineado con su
@@ -25,11 +33,7 @@ propósito de vida.</Subtitle>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon5} className="productoImagen" alt="Bio Paz"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

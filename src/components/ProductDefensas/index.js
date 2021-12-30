@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon20 from '../../images/bigsize/20-bioDefensas.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductDefensas = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductDefensas = ({lightBg, id, imgStart, topLine, lighText, headLine, da
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Defensas</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon20} className="productoImagen" alt="Bio Defensas"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Defensas</Heading>
+                    
                     <Subtitle>Los elixires florales trabajan tanto en el campo emocional como en el físico,
 sabiendo que cuando la salud emocional está alterada las defensas bajan
 dando paso a que aparezcan disfunciones, además de que con frecuencias
@@ -33,11 +41,7 @@ externas e internas. </Subtitle>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon20} className="productoImagen" alt="Bio Defensas"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

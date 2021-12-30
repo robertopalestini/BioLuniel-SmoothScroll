@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon25 from '../../images/biocristal-01.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, Compuestos, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductCristal = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductCristal = ({lightBg, id, imgStart, topLine, lighText, headLine, dar
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>Bio Natura</TopLine> */}
+                    <Heading >Bio Cristal</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon25} className="productoImagen" alt="Bio Cristal"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>Bio Natura</TopLine>
-                    <Heading >Bio Cristal</Heading>
+                    
                     <Subtitle>Antitranspirante elaborado con productos naturales a base de 
                         sales minerales, agua purificada y magnetizada. 
                         Elimina el mal olor causado por bacterias que se multiplican e la 
@@ -27,11 +35,7 @@ const ProductCristal = ({lightBg, id, imgStart, topLine, lighText, headLine, dar
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon25} className="productoImagen" alt="Bio Cristal"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

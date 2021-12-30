@@ -1,8 +1,7 @@
 import styled from 'styled-components';
-//import {Link} from 'react-scroll';
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 
-export const Button = styled(Link)`
+export const Button = styled(HashLink)`
 border-radius: 50px;
 background: ${({primary}) => (primary ? '#73d629' : '#010606')};
 white-space: nowrap;

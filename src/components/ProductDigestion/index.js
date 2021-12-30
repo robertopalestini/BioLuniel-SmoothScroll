@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon17 from '../../images/bigsize/17-bioDigestion.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductDigestion = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductDigestion = ({lightBg, id, imgStart, topLine, lighText, headLine, d
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Digestión</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon17} className="productoImagen" alt="Bio Digestion"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Digestión</Heading>
+                    
                     <Subtitle>Indicado en personas con problemas de la esfera digestiva, ya sea por
 alteraciones gástricas como reflujo, gastritis, alteraciones del tránsito intestinal
 como estreñimiento, colon irritable, diarreas funcionales o emocionales, etc. </Subtitle>
@@ -23,11 +31,7 @@ como estreñimiento, colon irritable, diarreas funcionales o emocionales, etc. <
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon17} className="productoImagen" alt="Bio Digestion"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon9 from '../../images/bigsize/9-bioResistencia.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductResistencia = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductResistencia = ({lightBg, id, imgStart, topLine, lighText, headLine,
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Resistencia (Bullying)</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon9} className="productoImagen" alt="Bio Resistencia"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Resistencia (Bullying)</Heading>
+                    
                     <Subtitle>Ideal para personas (niños y adultos) que están sufriendo daños físicos y
 psicológicos de forma intencionada y reiterada por parte de otra persona o de un
 grupo de personas (BULLYNG).
@@ -30,11 +38,7 @@ afrontar este tipo de maltrato. </Subtitle>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon9} className="productoImagen" alt="Bio Resistencia"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

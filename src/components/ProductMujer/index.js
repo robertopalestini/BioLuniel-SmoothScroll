@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon14 from '../../images/bigsize/14-bioMujer.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductMujer = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductMujer = ({lightBg, id, imgStart, topLine, lighText, headLine, darkT
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Mujer</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon14} className="productoImagen" alt="Bio Mujer"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Mujer</Heading>
+                    
                     <Subtitle>Indicado en trastornos femeninos como: ciclos menstruales irregulares,
 alteraciones en la menopausia, sofocos, calores nocturnos, cambios de carácter,
 irritabilidad, disminución de la libido y todo lo que conlleva.
@@ -26,11 +34,7 @@ biorregulador adaptogénico (adapta al cuerpo al nuevo nivel hormonal). </Subtit
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon14} className="productoImagen" alt="Bio Mujer"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

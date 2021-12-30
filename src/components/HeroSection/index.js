@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Image from '../../images/hero.jpg';
 import {Button} from '../ButtonElement';
-import { HeroContainer, HeroBg, HeroBgImage, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
+import { HeroContainer, HeroBg, HeroBgImage, HeroContent, HeroH1, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false)
@@ -23,7 +23,7 @@ const HeroSection = () => {
                 </HeroH1>
                 
                 <HeroBtnWrapper>
-                    <Button to="/productos" onMouseEnter={onHover} onMouseLeave={onHover}
+                    <Button to="/productos#biobach" onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
                     dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80}
                     >
@@ -31,7 +31,7 @@ const HeroSection = () => {
                         
                 </HeroBtnWrapper>
                 <HeroBtnWrapper>
-                    <Button to="/productos" onMouseEnter={onHover} onMouseLeave={onHover}
+                    <Button to="/productos#bionatura" onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
                     dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80}
                     >

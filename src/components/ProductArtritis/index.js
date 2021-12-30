@@ -1,7 +1,7 @@
-import React from 'react'
-import Icon18 from '../../images/18-bioAlergia.png'
-import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, Compuestos, BtnWrap, ImgWrap} from './ProductCElements';
+import React from 'react';
+import Icon28 from '../../images/bigsize/25-bioArtritis.png';
+import './productbio.css';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, Compuestos, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductArtritis = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,17 @@ const ProductArtritis = ({lightBg, id, imgStart, topLine, lighText, headLine, da
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                {/* <TopLine>Bio Bach</TopLine> */}
+                <Heading >Bio Artritis</Heading>
+                </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon28} className="productoImagen" alt="Bio Artritis"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>Bio Bach</TopLine>
-                    <Heading >Bio Artritis</Heading>
                     <Subtitle>Es una enfermedad que provoca inflamación, dolor y rigidez de 
                         una o más articulaciones, y puede empeorar con el tiempo, no es una 
                         patalogía que ponga en peligro la vida del paciente, sin embargo, 
@@ -28,11 +35,7 @@ const ProductArtritis = ({lightBg, id, imgStart, topLine, lighText, headLine, da
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon18} className="productoImagen" alt="Bio Artritis"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

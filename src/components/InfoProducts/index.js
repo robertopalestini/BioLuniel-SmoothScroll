@@ -1,17 +1,11 @@
 import React from 'react'
-import {animateScroll as scroll} from 'react-scroll';
-//BIO NATURA
-import Icon25 from '../../images/biocristal-01.png'
-import Icon26 from '../../images/biocabello-01.png'
-import Icon27 from '../../images/bioarsilla-01.png'
-import {ProductsContainer, ProductsH1, ProductsWrapper, ProductsCard, ProductsIcon, ProductsIconBio, ProductsH2, ProductsP} from './ProductsElements'
+import {ProductsContainer, ProductsH1} from './ProductsElements'
 
-    import { Link } from 'react-router-dom'
 import ProductAnsiedadAngustia from '../ProductAnsiedadAngustia';
 import ProductDepresion from '../ProductDepresion';
 import ProductTristeza from '../ProductTristeza';
 import ProductC from '../ProductC';
-import ProductD from '../ProductColageno';
+import ProductD from '../ProductD';
 import ProductResentimiento from '../ProductResentimiento';
 import ProductPaz from '../ProductPaz';
 import ProductRescate from '../ProductRescate';
@@ -38,45 +32,128 @@ import ProductArcilla from '../ProductArcilla';
 
 
 
+
 const InfoProducts = () => {
     
 
-    const toggleHome = () => {
-        scroll.scrollToTop()
-    };
-
     return (
-        <ProductsContainer id="biobach">
-            <ProductsH1>Bio Bach</ProductsH1>
+        <ProductsContainer>
+        <ProductsH1 id='biobach'>Bio Bach</ProductsH1>
+            
+            <ProductsContainer id="ansiedadangustia">
             <ProductAnsiedadAngustia />
-            <ProductDepresion />
-            <ProductTristeza />
+            </ProductsContainer>
+
+            <ProductsContainer id="depresion">
+            <ProductDepresion  />
+            </ProductsContainer>
+
+            <ProductsContainer id="tristeza">
+            <ProductTristeza  />
+            </ProductsContainer>
+
+            <ProductsContainer id="estres">
             <ProductC />
+            </ProductsContainer>
+
+            <ProductsContainer id="ira">
             <ProductD />
-            <ProductResentimiento />
-            <ProductPaz />
-            <ProductRescate />
-            <ProductResistencia />
+            </ProductsContainer>
+
+            <ProductsContainer  id="resentimiento">
+            <ProductResentimiento/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="paz">
+            <ProductPaz/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="rescate">
+            <ProductRescate/>
+            </ProductsContainer>
+            
+            <ProductsContainer  id="resistencia">
+            <ProductResistencia/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="insomnio">
             <ProductInsomnio />
-            <ProductMigrana />
-            <ProductApetito />
-            <ProductHombre />
-            <ProductMujer />
-            <ProductMemoria />
-            <ProductConcentracion />
-            <ProductDigestion />
-            <ProductAlergia />
-            <ProductDetox />
-            <ProductDefensas />
-            <ProductColageno />
-            <ProductPesoControl />
-            <ProductMiedoTemor />
-            <ProductLinfa />
-            <ProductArtritis />
-            <ProductsH1>Bio Natura</ProductsH1>
+            </ProductsContainer>
+            
+            <ProductsContainer id="migrana">
+            <ProductMigrana/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="apetito">
+            <ProductApetito/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="hombre">
+            <ProductHombre/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="mujer">
+            <ProductMujer/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="memoria">
+            <ProductMemoria/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="concentracion">
+            <ProductConcentracion/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="digestion">
+            <ProductDigestion/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="alergia">
+            <ProductAlergia/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="detox">
+            <ProductDetox/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="defensas">
+            <ProductDefensas/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="colageno">
+            <ProductColageno/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="pesocontrol">
+            <ProductPesoControl/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="miedotemor">
+            <ProductMiedoTemor/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="linfa">
+            <ProductLinfa/>
+            </ProductsContainer>
+            
+            <ProductsContainer id="artritis">
+            <ProductArtritis/>
+            </ProductsContainer>
+            
+
+            <ProductsH1 id='bionatura'>Bio Natura</ProductsH1>
+            <ProductsContainer id="cristal">
             <ProductCristal />
+            </ProductsContainer>
+            
+            <ProductsContainer id="cabello">
             <ProductCabello />
+            </ProductsContainer>
+            
+            <ProductsContainer id="arcilla">
             <ProductArcilla />
+            </ProductsContainer>
+            
 
               </ProductsContainer>
     )

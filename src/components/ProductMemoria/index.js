@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon15 from '../../images/bigsize/15-bioMemoria.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductMemoria = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductMemoria = ({lightBg, id, imgStart, topLine, lighText, headLine, dar
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Memoria</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon15} className="productoImagen" alt="Bio Memoria"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Memoria</Heading>
+                    
                     <Subtitle>Para mejorar la memoria tanto en pacientes jóvenes, estudiantes y personas de
 edad avanzada, apoyo en terapias de aprendizaje.
 Esta desconexión hace que fallen los mecanismos de adaptación de su entorno
@@ -30,11 +38,7 @@ Nuestro producto es ideal para toda persona que necesite este apoyo. </Subtitle>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon15} className="productoImagen" alt="Bio Memoria"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

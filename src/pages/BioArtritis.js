@@ -19,7 +19,7 @@ const BioArtritis = () => {
             <HeroSectionP />
             <ProductArtritis />
 
-             <Footer />
+            <Footer />
         </>
     )
 }

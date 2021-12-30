@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon22 from '../../images/bigsize/22-bioPeso.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductPesoControl = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductPesoControl = ({lightBg, id, imgStart, topLine, lighText, headLine,
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Peso Control</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon22} className="productoImagen" alt="Bio Tristeza"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Peso Control</Heading>
+                    
                     <Subtitle>Tratamiento que hace una limpieza orgánica e intestinal inicial, apoya en el
 control del apetito aumentando y desordenado, regula el metabolismo, calma
 la ansiedad por comer.
@@ -28,11 +36,7 @@ equilibrada, tomar abundante agua.  </Subtitle>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon22} className="productoImagen" alt="Bio Tristeza"/>
-                    </ImgWrap>
-                    </Column2>
+                   
                 </InfoRow>
 
                 </InfoWrapper>   

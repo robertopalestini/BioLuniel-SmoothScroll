@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon4 from '../../images/bigsize/4-bioIra.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText,
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Ira</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon4} className="productoImagen" alt="Bio Ira"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Ira</Heading>
+                    
                     <Subtitle>Puede tener muchas consecuencias físicas y mentales, la ira, cólera (colerín),
 rabia, enojo o furia es una emoción que se expresa a través de la irritabilidad.
 Los efectos físicos de la ira incluyen aumento del ritmo cardíaco, de la
@@ -31,11 +39,7 @@ persona a un control de sus acciones y evitando complicaciones con otros órgano
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon4} className="productoImagen" alt="Bio Ira"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

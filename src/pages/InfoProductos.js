@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import Footer from '../components/Footer'
-import HeroSectionP from '../components/HeroSectionP'
+import HeroSectionIP from '../components/HeroSectionIP'
 import InfoProducts from '../components/InfoProducts'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
@@ -18,7 +18,7 @@ const InfoProductos = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
-             <HeroSectionP />
+             <HeroSectionIP />
              <InfoProducts />
              <Footer />
         </>

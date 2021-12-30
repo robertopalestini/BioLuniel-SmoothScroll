@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon2 from '../../images/bigsize/2-bioDepresion.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductDepresion = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductDepresion = ({lightBg, id, imgStart, topLine, lighText, headLine, d
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Depresión</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon2} className="productoImagen" alt="Bio Depresion"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Depresión</Heading>
+                    
                     <Subtitle>La Depresión es un trastorno emocional que causa un sentimiento de tristeza
 constante y una pérdida de interés en realizar diferentes actividades en
 períodos largos de tiempo. Existen 2 tipos de depresión, exógena y endógena, la
@@ -34,11 +42,7 @@ contraindicaciones.</Subtitle>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon2} className="productoImagen" alt="Bio Depresion"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

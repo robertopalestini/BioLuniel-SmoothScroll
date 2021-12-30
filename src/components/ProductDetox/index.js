@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon19 from '../../images/bigsize/19-bioDetox.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText,
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Detox</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon19} className="productoImagen" alt="Bio Detox"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Detox</Heading>
+                    
                     <Subtitle>Mezcla de elixires florales que favorecen los propios mecanismos de
 eliminación de toxinas de cualquier tipo, ayudan a limpiar el organismo, de
 hecho, ayudan a lograr un verdadero drenaje psicológico y físico, puesto que, a
@@ -28,11 +36,7 @@ al día). </Subtitle>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon19} className="productoImagen" alt="Bio Detox"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

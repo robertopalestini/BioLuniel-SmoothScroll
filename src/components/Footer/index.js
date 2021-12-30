@@ -31,11 +31,12 @@ const Footer = () => {
                         <FooterLink to="/contacto" onClick={toggleHome}>Contacto</FooterLink>
                  </FooterLinkItems>
                  <FooterLinkItems>
-                    <FooterLinkTitle>Lista de Productos</FooterLinkTitle>
-                        <FooterLink to="/bioansiedadangustia" onClick={toggleHome}>Bio Ansiedad/Angustia</FooterLink>
-                        <FooterLink to="/biodepresion" onClick={toggleHome}>Bio Depresion</FooterLink>
-                        <FooterLink to="/biodigestion" onClick={toggleHome}>Bio Digestion</FooterLink>
-                        <FooterLink to="/productos" onClick={toggleHome}>Todos los Productos</FooterLink>
+                    <FooterLinkTitle>Esencias Florales</FooterLinkTitle>
+                    <FooterLink to="/productos" onClick={toggleHome}>Todos los Productos</FooterLink>
+                        <FooterLink to="/productos#biobach" >Bio Bach</FooterLink>
+                        <FooterLink to="/productos#bionatura" >Bio Natura</FooterLink>
+                        
+                        
                         <FooterLink to="/">Productos mas vendidos</FooterLink>
                         <FooterLink to="/">Ofertas</FooterLink>
                  </FooterLinkItems>
@@ -43,24 +44,25 @@ const Footer = () => {
             <FooterLinksWrapper>
                 <FooterLinkItems>
                     <FooterLinkTitle>Nosotros</FooterLinkTitle>
-                        <FooterLink to="/nosotros"  onClick={toggleHome}>Nuestro Equipo</FooterLink>
-                        <FooterLink to="/nosotros#five" onClick={toggleHome}>Beneficios de las esencias florales</FooterLink>
-                        <FooterLink to="/nosotros#six" onClick={toggleHome}>¿Como actúan las esencias florales?</FooterLink>
-                        <FooterLink to="/nosotros#seven" onClick={toggleHome}>¿Como tomar las esencias florales?</FooterLink>
-                        <FooterLink to="/nosotros#eight" onClick={toggleHome}>¿Hay contraindicaciones de las esencias florales?</FooterLink>
-                        <FooterLink to="/nosotros#nine" onClick={toggleHome}>Limpieza y Catarsis</FooterLink>
-                        <FooterLink to="/nosotros#ten" onClick={toggleHome}>¿Que hacer si se tienen efectos secundarios?</FooterLink>
-                        <FooterLink to="/nosotros#eleven" onClick={toggleHome}>¿Las esencias florales crean adicción?</FooterLink>
-                        <FooterLink to="/nosotros#twelve" onClick={toggleHome}>Tiempo en que tienen efecto las esencias florales</FooterLink>
-                        <FooterLink to="/nosotros#thirdteen" onClick={toggleHome}>Conservación</FooterLink>
+                    
+                        <FooterLink to="/nosotros#equipo"  >Nuestro Equipo</FooterLink>
+                        <FooterLink to="/nosotros#beneficios" >Beneficios de las esencias florales</FooterLink>
+                        <FooterLink to="/nosotros#cualidad" >¿Como actúan las esencias florales?</FooterLink>
+                        
+                        <FooterLink to="/nosotros#comotomar" >¿Como tomar las esencias florales?</FooterLink>
+                        <FooterLink to="/nosotros#contraindicaciones" >¿Hay contraindicaciones de las esencias florales?</FooterLink>
+                        <FooterLink to="/nosotros#limpiezaycatarsis" >Limpieza y Catarsis</FooterLink>
+                        <FooterLink to="/nosotros#efectossecundarios" >¿Que hacer si se tienen efectos secundarios?</FooterLink>
+                        <FooterLink to="/nosotros#adiccion" >¿Las esencias florales crean adicción?</FooterLink>
+                        <FooterLink to="/nosotros#tiempo" >Tiempo en que tienen efecto las esencias florales</FooterLink>
+                        <FooterLink to="/nosotros#conservacion" >Conservación</FooterLink>
                  </FooterLinkItems>
                  <FooterLinkItems>
                     <FooterLinkTitle>Social Media</FooterLinkTitle>
                     <FooterLink to="//api.whatsapp.com/send?phone=593988363602&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" target="_blank" >WhatsApp</FooterLink>
-                        <FooterLink to="/">Instagram</FooterLink>
+                        
                         <FooterLink to="//https://www.facebook.com/acupunturaenquito/">Facebook</FooterLink>
-                        <FooterLink to="/">Youtube</FooterLink>
-                        <FooterLink to="/">Twitter</FooterLink>
+                        
                         
                  </FooterLinkItems>
             </FooterLinksWrapper>

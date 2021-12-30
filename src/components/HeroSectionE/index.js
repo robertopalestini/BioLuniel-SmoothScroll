@@ -20,7 +20,10 @@ const ansiedad=()=>{
 
         title: 'Bio Ansiedad/Angustia',
         text: 'Nuestro producto esta recomendado para personas tendientes a ser nerviosas, preocupadas en extremo, angustia progresiva, trastornos, crisis de ansiedad reactiva generalizada, sudoración en manos o cuerpo y trastornos psicosomáticos por ansiedad.',
-        footer: '<a href="">Contactar por Whatsapp</a>',
+        footer: '<a href="https://api.whatsapp.com/send?phone=593988363602&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" style="color:#000" target="_blank">Contactar por Whatsapp</a>',
+        confirmButtonColor: '#73d629',
+        confirmButtonText: '<a href="/infoproductos#ansiedad">Ver más</a>',
+        showCloseButton: true,
       })
 }
 const depresion=()=>{
@@ -30,7 +33,10 @@ const depresion=()=>{
 
         title: 'Bio Depresión',
         text: 'Nuestro producto puede ser utilizado en personas con trastornos depresivos persistentes severos o moderados en cuadros como depresión reactiva, depresión bipolar o intentos fallidos de suicidio, (es importante anotar que no debe suspenderse ni reemplazar la medicación química que el paciente este tomando) puede administrarse sólo o con otros productos sin tener riesgo de contraindicaciones. ',
-        footer: '<a href="">Contactar por Whatsapp</a>',
+        footer: '<a href="https://api.whatsapp.com/send?phone=593988363602&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" style="color:#000" target="_blank">Contactar por Whatsapp</a>',
+        confirmButtonColor: '#73d629',
+        confirmButtonText: '<a href="/infoproductos#depresion">Ver más</a>',
+        showCloseButton: true,
       })
 }
 const tristeza=()=>{
@@ -40,10 +46,12 @@ const tristeza=()=>{
 
         title: 'Bio Tristeza',
         text: 'Nuestro producto está recomendado en individuos con personalidad triste, apagada, en circunstancias particulares, individuos tendientes a la soledad. Los síntomas más evidentes son el llanto, el desgano, el nerviosismo, suspiros frecuentes y profundos y el decaimiento moral. ',
-        footer: '<a href="">Contactar por Whatsapp</a>',
+        footer: '<a href="https://api.whatsapp.com/send?phone=593988363602&text=Hola%2C+me+contacto+atravez+del+Sitio+de+BioLuniel" style="color:#000" target="_blank">Contactar por Whatsapp</a>',
+        confirmButtonColor: '#73d629',
+        confirmButtonText: '<a href="/infoproductos#tristeza">Ver más</a>',
+        showCloseButton: true,
       })
 }
-
     const [hover, setHover] = useState(false)
 
     const onHover = () => {
@@ -89,7 +97,7 @@ const tristeza=()=>{
                 </ProductsWrapper>
                 </ProductsContainer>
                 <HeroBtnWrapper>
-                    <Button to="/productos" onMouseEnter={onHover} onMouseLeave={onHover}
+                    <Button to="/productos#biobach" onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
                     dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80}
                             

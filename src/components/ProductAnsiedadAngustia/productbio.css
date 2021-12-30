@@ -19,15 +19,10 @@
 }
 
 .productoImagen {
-  width: 400px;
+  width: 350px;
 }
 @media screen and (max-width: 1024px) {
   .productoImagen {
     width: 300px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .productoImagen {
-    width: 150px;
   }
 }

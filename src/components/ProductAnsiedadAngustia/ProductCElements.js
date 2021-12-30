@@ -31,11 +31,15 @@ export const InfoRow = styled.div`
 display: grid;
 grid-auto-columns: minmax(auto, 1fr);
 align-items: center;
-grid-template-areas: ${({imgStart}) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
+grid-template-areas: 
+"col3 col3 col2"
+"col1 col1 col2"
+"col1 col1 col2"
+;;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
 
-    grid-template-areas ${({imgStart}) => (imgStart ? `'col 1' 'col2'` : `'col1 col 1' 'col2 col2'`)};
+    grid-template-areas:"col3" "col2" "col1";
 }
 `
 
@@ -48,6 +52,11 @@ export const Column2 = styled.div`
 margin-bottom: 15px;
 padding: 0 15px;
 grid-area: col2;
+`
+export const Column3 = styled.div`
+margin-bottom: 15px;
+padding: 0 15px;
+grid-area: col3;
 `
 
 export const TextWrapper = styled.div`

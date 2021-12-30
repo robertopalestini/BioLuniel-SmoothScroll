@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon13 from '../../images/bigsize/13-bioHombre.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductHombre = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductHombre = ({lightBg, id, imgStart, topLine, lighText, headLine, dark
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Hombre</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon13} className="productoImagen" alt="Bio Hombre"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Hombre</Heading>
+                    
                     <Subtitle>Indicado en hombres con hipertrofia prostática benigna, también que estén
 cursando los períodos de falta de lívido, deseo sexual, andropausia, entre otras
 afecciones, más si esto se acompaña de alteraciones de la esfera emocional,
@@ -28,11 +36,7 @@ adaptogénico (adapta al cuerpo al nuevo nivel hormonal).</Subtitle>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon13} className="productoImagen" alt="Bio Hombre"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

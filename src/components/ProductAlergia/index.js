@@ -2,7 +2,7 @@ import React from 'react'
 import Icon18 from '../../images/18-bioAlergia.png'
 
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, Compuestos, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, Column3, TextWrapper, Heading, Subtitle, Compuestos, BtnWrap, ImgWrap} from './ProductCElements';
 
 
 const ProductAlergia = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -12,10 +12,18 @@ const ProductAlergia = ({lightBg, id, imgStart, topLine, lighText, headLine, dar
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                {/* <TopLine>BioBach</TopLine> */}
+                <Heading >Bio Alergia</Heading>
+                </Column3>  
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon18} className="productoImagen" alt="Bio Alergia"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Alergia</Heading>
+                    
                     <Subtitle>Las alergias son la respuesta excesiva por parte del sistema inmunológico a un
 agente externo; esta respuesta se deriva de una causa interna que puede ser
 incrementada por la carga emocional.
@@ -33,11 +41,7 @@ terapéutico a otros medicamentos alopáticos.  </Subtitle>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon18} className="productoImagen" alt="Bio Alergia"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon10 from '../../images/bigsize/10-bioInsomnio.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductInsomnio = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductInsomnio = ({lightBg, id, imgStart, topLine, lighText, headLine, da
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Insomnio</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon10} className="productoImagen" alt="Bio Insomnio"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Insomnio</Heading>
+                    
                     <Subtitle>Apoyo de tratamiento para lograr regular trastornos del sueño, problemas para
 mantener el sueño, produciéndose despertares nocturnos de más de 30
 minutos de duración, o despertando definitivamente de manera precoz
@@ -35,11 +43,7 @@ día sin riesgo de producir somnolencia. </Subtitle>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon10} className="productoImagen" alt="Bio Insomnio"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

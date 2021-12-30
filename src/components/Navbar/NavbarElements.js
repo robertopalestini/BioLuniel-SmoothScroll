@@ -126,6 +126,8 @@ color: #2f2e41;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 
     &:hover {
         transition: all 0.2s ease-in-out;

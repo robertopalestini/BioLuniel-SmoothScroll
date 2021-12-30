@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon3 from '../../images/bigsize/3-bioEstres.png';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductC = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductC = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText,
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                {/* <TopLine>BioBach</TopLine> */}
+                <Heading >Bio Estres</Heading>
+                </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img className="productoImagen" alt="Bio Estres" src={Icon3} />
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Estres</Heading>
+                    
                     <Subtitle>Se considera estrés al estado o conjunto reacciones que le suceden a la persona
 en respuesta las presiones sociales o emocionales o por un exceso de
 situaciones que superan sus recursos, expresándose como cansancio mental y
@@ -29,11 +37,7 @@ o psicosomáticos de estrés, que generen alteraciones de adaptación. </Subtitl
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img className="productoImagen" alt="Bio Estres" src={Icon3} />
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

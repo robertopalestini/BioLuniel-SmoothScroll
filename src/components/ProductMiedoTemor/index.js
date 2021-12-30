@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon23 from '../../images/bigsize/23-bioMiedo.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductMiedoTemor = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductMiedoTemor = ({lightBg, id, imgStart, topLine, lighText, headLine, 
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Miedo Temor</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon23} className="productoImagen" alt="Bio Miedo Temor"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Miedo Temor</Heading>
+                    
                     <Subtitle>El miedo es una reacción caracterizada por una intensa sensación
 desagradable, las personas pueden presentar una fuerte reacción física,
 sudoración excesiva, latidos rápidos del corazón y sienten como si no pudieran
@@ -30,11 +38,7 @@ disminuyendo los niveles altos de inquietud asociado al miedo. </Subtitle>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon23} className="productoImagen" alt="Bio Miedo Temor"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   

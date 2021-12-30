@@ -25,7 +25,7 @@ const HeroSection = () => {
                 Como podemos ayudarte?
                 </HeroP>
                 <HeroBtnWrapper>
-                    <Button to="/productos" onMouseEnter={onHover} onMouseLeave={onHover}
+                    <Button to="/productos#biobach" onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
                     dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80}
                             
@@ -34,7 +34,7 @@ const HeroSection = () => {
                         Productos Bio Bach {hover ? <ArrowForward /> : <ArrowRight />}</Button>
                 </HeroBtnWrapper>
                 <HeroBtnWrapper>
-                    <Button to="/productos" onMouseEnter={onHover} onMouseLeave={onHover}
+                    <Button to="/productos#bionatura" onMouseEnter={onHover} onMouseLeave={onHover}
                     primary="true"
                     dark="true" smooth={true} duration={500} spy={true} exact='true' offset={-80}
                             

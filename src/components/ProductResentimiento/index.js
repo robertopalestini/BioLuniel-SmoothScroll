@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon6 from '../../images/bigsize/6-bioResentimiento.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText,
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                     {/* <TopLine>BioBach</TopLine> */}
+                     <Heading >Bio Resentimiento</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon6} className="productoImagen" alt="Bio Resentimiento"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Resentimiento</Heading>
+                   
                     <Subtitle>El Resentimiento mantiene atadas a las personas en el pasado por lo que se
 estancan, no son capaces de olvidar y perdonar a quien los lastimó con sus
 palabras o acciones, también llamado rencor.
@@ -30,11 +38,7 @@ emocional. </Subtitle>
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon6} className="productoImagen" alt="Bio Resentimiento"/>
-                    </ImgWrap>
-                    </Column2>
+                   
                 </InfoRow>
 
                 </InfoWrapper>   

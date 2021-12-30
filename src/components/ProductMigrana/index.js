@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon11 from '../../images/bigsize/11-bioMigrana.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductMigrana = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -10,10 +10,18 @@ const ProductMigrana = ({lightBg, id, imgStart, topLine, lighText, headLine, dar
             <ProductCContainer>
             <InfoWrapper>
                 <InfoRow>
+                <Column3>
+                    {/* <TopLine>BioBach</TopLine> */}
+                    <Heading >Bio Migraña</Heading>
+                    </Column3>
+                <Column2>
+                    <ImgWrap>
+                    <img src={Icon11} className="productoImagen" alt="Bio Migraña"/>
+                    </ImgWrap>
+                    </Column2>
                     <Column1>
                     <TextWrapper>
-                    <TopLine>BioBach</TopLine>
-                    <Heading >Bio Migraña</Heading>
+                    
                     <Subtitle>Puede producirse a cualquier edad, pero en general se inicia entre los 10 a 30
 años, siendo más frecuente en las mujeres que en los varones, llamada también
 "el grito silencioso de la mente agobiada", es un tipo de dolor de cabeza que
@@ -30,11 +38,7 @@ erradica definitivamente.
                             </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    <Column2>
-                    <ImgWrap>
-                    <img src={Icon11} className="productoImagen" alt="Bio Migraña"/>
-                    </ImgWrap>
-                    </Column2>
+                    
                 </InfoRow>
 
                 </InfoWrapper>   
