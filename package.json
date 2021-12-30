@@ -1,9 +1,6 @@
 {
   "name": "bioluniel-smoothscroll",
   "version": "0.1.0",
-  "engines": {
-    "node": "14.x"
-  },
   "private": true,
   "dependencies": {
     "@szhsin/react-menu": "^2.3.0",
@@ -15,10 +12,9 @@
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.2",
     "react-dom": "^17.0.2",
-    "react-hash-link": "^1.0.1",
     "react-icons": "^4.3.1",
+    "react-hash-link": "^1.0.1",
     "react-router-dom": "^6.0.1",
-    "react-router-hash-link": "^2.4.3",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
     "requirejs": "^2.3.6",
