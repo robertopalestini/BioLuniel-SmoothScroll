@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon9 from '../../images/bigsize/9-bioResistencia.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductResistencia = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -33,9 +33,7 @@ o de ira extrema pueda llevar a terminar con la vida de otras personas.
                     <Subtitle>Nuestro producto actúa brindándole al paciente la entereza, firmeza, seguridad y fortaleza para
 afrontar este tipo de maltrato. </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Larch, Centaury, Cherry Plum, Star of Bethlehem, entre otras.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
+
                         </TextWrapper>
                     </Column1>
                     

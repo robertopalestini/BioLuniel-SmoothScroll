@@ -2,7 +2,7 @@ import React from 'react'
 import Icon12 from '../../images/bigsize/12-bioApetito.png'
 import { Compuestos } from '../ProductC/ProductCElements';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, Column3, TextWrapper, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, Column3, TextWrapper, Heading, Subtitle, ImgWrap} from './ProductCElements';
 
 
 const ProductApetito = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -31,9 +31,6 @@ cantidad.</Subtitle>
 que conlleva a que el cuerpo no reciba los nutrientes que necesita en los
 alimentos, pérdida de masa muscula y fuerza.</Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Gentian, Achicory, Wild Rose, entre otros.  </Compuestos>
-                        <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
                     

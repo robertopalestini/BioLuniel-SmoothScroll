@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon6 from '../../images/bigsize/6-bioResentimiento.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -21,7 +21,6 @@ const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText,
                     </Column2>
                     <Column1>
                     <TextWrapper>
-                   
                     <Subtitle>El Resentimiento mantiene atadas a las personas en el pasado por lo que se
 estancan, no son capaces de olvidar y perdonar a quien los lastimó con sus
 palabras o acciones, también llamado rencor.
@@ -33,14 +32,9 @@ de su dolor. El resentimiento agravado acaba produciendo rencor persistente.
                     <Subtitle>Nuestro producto ayuda a sanar este sentimiento y de esta manera devolviendo el bienestar
 emocional. </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Willow, Water Violet, White Chesnut, Holly, entre otros. </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                   
                 </InfoRow>
-
                 </InfoWrapper>   
             </ProductCContainer>
         </>

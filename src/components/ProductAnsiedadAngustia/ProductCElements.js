@@ -15,6 +15,7 @@ margin-right: auto;
 margin-left: auto;
 padding: 30px 24px;
 justify-content: center;
+height: 600px;
 
 @media screen and (max-width: 768px) {
     padding: 0 24px;

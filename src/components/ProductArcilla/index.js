@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon27 from '../../images/bioarsilla-01.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, Column3, TextWrapper, Heading, Subtitle, Compuestos, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, Column3, TextWrapper, Heading, Subtitle, Compuestos, ImgWrap} from './ProductCElements';
 
 
 const ProductArcilla = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -31,10 +31,6 @@ Ideal para faciales y corporales.
 </Subtitle>
 <Compuestos>Modo de Uso: Colocar la cantidad a utilizar de BIO ARCILLA en un recipiente limpio preferentemente de acero inoxidable o vidrio, adicionar agua fría o caliente, libre de cloro, disolver hasta formar una pasta cremosa. 
 Indicaciones: Piel seca, piel con acné, seborrea, piel maltratada, laceraciones, mantiene la juventud de la piel.</Compuestos>
-
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
                     

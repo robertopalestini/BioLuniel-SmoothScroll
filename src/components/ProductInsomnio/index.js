@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon10 from '../../images/bigsize/10-bioInsomnio.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductInsomnio = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -38,9 +38,6 @@ BIOREGULADOR del ciclo circadiano (es el reloj biológico que regula y programa 
 fisiológicas del organismo en un período de un día o 24 horas), por lo tanto, se debe tomar aún en el
 día sin riesgo de producir somnolencia. </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Hombeam, Vervain, Mimulus, entre otros.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
                     

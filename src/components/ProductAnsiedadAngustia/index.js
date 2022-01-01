@@ -3,7 +3,7 @@ import Icon1 from '../../images/bigsize/1-bioAnsiedadAngustia.png'
 
 import { Compuestos } from '../ProductAlergia/ProductCElements';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, Column3, TextWrapper, Heading, Subtitle, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, Column3, TextWrapper, Heading, Subtitle, ImgWrap} from './ProductCElements';
 
 
 const ProductAnsiedadAngustia = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -14,7 +14,7 @@ const ProductAnsiedadAngustia = ({lightBg, id, imgStart, topLine, lighText, head
             <InfoWrapper>
                 <InfoRow>
                 <Column3>
-                <Heading >Bio Ansiedad Angustia</Heading>
+                <Heading >Bio Ansiedad/Angustia</Heading>
                 </Column3>
                 <Column2>
                     <ImgWrap>
@@ -35,12 +35,9 @@ preocupadas en extremo, angustia progresiva, trastornos, crisis de ansiedad
 reactiva generalizada, sudoración en manos o cuerpo y trastornos
 psicosomáticos por ansiedad.   </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Holly, Aspen, Sweet, Chestnut, entre otros.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                   
+
                 </InfoRow>
 
                 </InfoWrapper>   

@@ -35,9 +35,12 @@ import BioCristal from './pages/BioCristal';
 import BioCabello from './pages/BioCabello';
 import BioArcilla from './pages/BioArcilla';
 import InfoProductos from './pages/InfoProductos';
+import FloatingWhatsApp from 'react-floating-whatsapp';
+import avatar from './images/avatar.jpg';
 
 function App() {
   return (
+    
     <Router>
      
       <Routes> 
@@ -76,7 +79,17 @@ function App() {
         <Route path="/biocabellosano" element={<BioCabello />} exact />
         <Route path="/bioarcilla" element={<BioArcilla />} exact />
       </Routes>
-
+      <FloatingWhatsApp
+      phoneNumber='593988363602'
+      accountName='Bio Luniel'
+      statusMessage='Elixires Florales'
+      chatMessage='Bienvenidos! 🤝 Como podemos ayudarte?'
+      allowClickAway
+      avatar={avatar}
+      notification
+      notificationSound
+      notificationDelay={30000}
+    />
     </Router>
   );
 }

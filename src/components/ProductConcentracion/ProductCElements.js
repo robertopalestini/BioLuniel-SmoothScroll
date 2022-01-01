@@ -18,11 +18,11 @@ justify-content: center;
 
 @media screen and (max-width: 768px) {
     padding: 0 24px;
-    height: 700px;
+    height: 715px;
 }
 @media screen and (max-width:480px) {
     padding: 0 24px;
-    height: 700px;
+    height: 900px;
 }
 
 `
@@ -83,9 +83,9 @@ line-height: 1.1;
 font-weight: 600px;
 color: ${({lightBg}) => (lightBg ? '#73d629' : '#73d629')};
 
-@media screen and (max-width:768px) {
-    font-size: 30px;
-}
+// @media screen and (max-width:768px) {
+//     font-size: 30px;
+// }
 `
 
 export const Subtitle = styled.p`

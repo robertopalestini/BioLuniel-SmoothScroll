@@ -22,7 +22,7 @@ justify-content: center;
 }
 @media screen and (max-width:480px) {
     padding: 0 24px;
-    height: 750px;
+    height: 950px;
 }
 
 `

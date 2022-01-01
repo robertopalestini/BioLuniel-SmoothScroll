@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon26 from '../../images/biocabello-01.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, Compuestos, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, Compuestos, ImgWrap} from './ProductCElements';
 
 
 const ProductCabello = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -27,13 +27,8 @@ Elimina puntas quebradizas devolviendo brillo y sedosidad a los cabellos opacos 
 </Subtitle>
                         <Compuestos>Modo de Uso: Coloque 20 grageas en el frasco de shampoo nuevo de su preferencia (400 o 500ml) y 20 grageas en el acondicionador. Agite bien, deje reposar por 8 horas, antes de usar nuevamente agite y coloque es su cabello deje actuar por 10 minutos y enjuague con abundante agua. 
 </Compuestos>
-
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                   
                 </InfoRow>
 
                 </InfoWrapper>   

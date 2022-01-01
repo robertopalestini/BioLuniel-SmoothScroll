@@ -1,8 +1,8 @@
 import React from 'react'
-import Icon18 from '../../images/18-bioAlergia.png'
+import Icon18 from '../../images/bigsize/18-bioAlergia.png'
 
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, Column3, TextWrapper, Heading, Subtitle, Compuestos, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, Column3, TextWrapper, Heading, Subtitle, Compuestos, ImgWrap} from './ProductCElements';
 
 
 const ProductAlergia = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -36,9 +36,6 @@ inmunitario y provocan una reacción de hipersensibilidad.
 desequilibrios, pueden ser de gran ayuda para las personas que padecen alergias diversas y apoyo
 terapéutico a otros medicamentos alopáticos.  </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Willow, Vervain, Scleranthus, entre otras.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
                     

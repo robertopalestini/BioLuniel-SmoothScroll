@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon28 from '../../images/bigsize/25-bioArtritis.png';
 import './productbio.css';
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, Compuestos, BtnWrap, ImgWrap} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, Compuestos, ImgWrap} from './ProductCElements';
 
 
 const ProductArtritis = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -30,9 +30,6 @@ const ProductArtritis = ({lightBg, id, imgStart, topLine, lighText, headLine, da
                             tiene efecto antiinflamatorio, previene la deformación de las 
                             articulaciones.</Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Elm, Willow, Rock water, Vervain, entre otros.</Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
                     

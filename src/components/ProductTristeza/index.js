@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon7 from '../../images/bigsize/7-bioTristeza.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductTristeza = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -21,7 +21,6 @@ const ProductTristeza = ({lightBg, id, imgStart, topLine, lighText, headLine, da
                     </Column2>
                     <Column1>
                     <TextWrapper>
-                    
                     <Subtitle>La Tristeza puede ser también un síntoma de distimia, que se caracteriza,
 además, por un abatimiento general de la persona, por el descenso de la
 autoestima y los sentimientos de pesimismo, desesperanza y desamparo,
@@ -33,14 +32,9 @@ apagada, en circunstancias particulares, individuos tendientes a la soledad. Los
 síntomas más evidentes son el llanto, el desgano, el nerviosismo, suspiros
 frecuentes y profundos y el decaimiento moral.  </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Mustard, Pine, Wild Oat, Wild Rose, entre otros.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
-                    
                 </InfoRow>
-
                 </InfoWrapper>   
             </ProductCContainer>
         </>

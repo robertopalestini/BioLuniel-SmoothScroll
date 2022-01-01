@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon11 from '../../images/bigsize/11-bioMigrana.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductMigrana = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -33,9 +33,6 @@ crisis de cefalea sean menos frecuentes y menos intensas, en muchos casos la
 erradica definitivamente. 
 </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Olive, Scleranthus, Agrimony, entre otros.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
                     

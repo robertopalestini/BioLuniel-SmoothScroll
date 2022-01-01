@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon3 from '../../images/bigsize/3-bioEstres.png';
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductC = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -32,9 +32,6 @@ influir en el bienestar tanto físico como psicológico y personal.
 con muchas exigencias, responsabilidades se manifiesten con signos generales
 o psicosomáticos de estrés, que generen alteraciones de adaptación. </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Oak, Elm, Olive, Red Chesnut, Impatiens, entre otras.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
                     

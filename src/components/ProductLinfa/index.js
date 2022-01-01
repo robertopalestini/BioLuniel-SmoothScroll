@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon24 from '../../images/bigsize/24-bioLinfa.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductLinfa = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -37,9 +37,6 @@ para mejorar la circulación sanguínea, eliminación de líquido intersticial y
 tamaño, facilitando su evacuación, de esta manera ayudar a reducir los tiempos de recuperación.
 Reduce la sensación de piernas pesadas e hinchadas. </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Beech, Vervain, Healing Herb, entre otros.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
                     

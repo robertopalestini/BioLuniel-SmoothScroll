@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon23 from '../../images/bigsize/23-bioMiedo.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductMiedoTemor = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -33,9 +33,6 @@ identificar a una persona que sufre de miedo.
 emoción dando el coraje y valor a la persona que lo padece para enfrentarlo y
 disminuyendo los niveles altos de inquietud asociado al miedo. </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Clematis, ELM, Olive, entre otras.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
                     

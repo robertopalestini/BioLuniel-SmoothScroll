@@ -19,11 +19,11 @@ height: 700px;
 
 @media screen and (max-width: 768px) {
     padding: 0 24px;
-    height: 500px;
+    height: 550px;
 }
 @media screen and (max-width:480px) {
     padding: 0 24px;
-    height: 600px;
+    height: 700px;
 }
 
 `

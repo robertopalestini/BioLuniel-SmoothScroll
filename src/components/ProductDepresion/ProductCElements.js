@@ -15,6 +15,7 @@ margin-right: auto;
 margin-left: auto;
 padding: 30px 24px;
 justify-content: center;
+height: 900px;
 
 @media screen and (max-width: 768px) {
     padding: 0 24px;
@@ -22,7 +23,7 @@ justify-content: center;
 }
 @media screen and (max-width:480px) {
     padding: 0 24px;
-    height: 950px;
+    height: 1200px;
 }
 
 

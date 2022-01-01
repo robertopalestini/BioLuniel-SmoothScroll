@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon8 from '../../images/bigsize/8-bioRescate.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductRescate = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -21,7 +21,6 @@ const ProductRescate = ({lightBg, id, imgStart, topLine, lighText, headLine, dar
                     </Column2>
                     <Column1>
                     <TextWrapper>
-                    
                     <Subtitle>Fórmula de emergencia (podemos tenerla en el botiquín), para ser usada en
 situaciones mal definidas como pérdida de un ser querido, término de una
 relación, pérdida del trabajo o cualquier situación que ese momento nos cause
@@ -30,9 +29,6 @@ un shock y por ello alteren nuestra salud emocional y física.</Subtitle>
 cuadros de depresión y otras alteraciones emocionales que puedan causar
 más daño. </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Vervain, Clematis, Impatiens, Star of Bethelehem, entre otros.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
                     

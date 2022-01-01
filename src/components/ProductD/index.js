@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon4 from '../../images/bigsize/4-bioIra.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -34,9 +34,7 @@ persiste esta alteración emocional sin causa aparente.</Subtitle>
                     <Subtitle>Nuestro producto justamente está recomendado para equilibrar esta emoción llevando a la
 persona a un control de sus acciones y evitando complicaciones con otros órganos. </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Tefilin, Gutles Mutter, Cherry Plum, entre otras.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
+
                         </TextWrapper>
                     </Column1>
                     

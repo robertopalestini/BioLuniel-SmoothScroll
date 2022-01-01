@@ -18,7 +18,7 @@ justify-content: center;
 
 @media screen and (max-width: 768px) {
     padding: 0 24px;
-    height: 750px;
+    height: 650px;
 }
 @media screen and (max-width:480px) {
     padding: 0 24px;

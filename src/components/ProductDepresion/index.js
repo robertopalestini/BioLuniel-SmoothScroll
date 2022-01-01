@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon2 from '../../images/bigsize/2-bioDepresion.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductDepresion = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -37,9 +37,6 @@ o moderados en cuadros como depresión reactiva, depresión bipolar o intentos f
 no debe suspenderse ni reemplazar la medición química que el paciente este tomando) puede administrarse sólo o con otros productos sin tener riesgo de
 contraindicaciones.</Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Agrimony, Gentian, Larch, Gorse, entre otros.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
                         </TextWrapper>
                     </Column1>
                     

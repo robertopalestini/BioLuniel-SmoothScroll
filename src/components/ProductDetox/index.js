@@ -1,7 +1,7 @@
 import React from 'react'
 import Icon19 from '../../images/bigsize/19-bioDetox.png'
 import './productbio.css'
-import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, BtnWrap, ImgWrap, Compuestos} from './ProductCElements';
+import { ProductCContainer,  InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Column3, Heading, Subtitle, ImgWrap, Compuestos} from './ProductCElements';
 
 
 const ProductD = ({lightBg, id, imgStart, topLine, lighText, headLine, darkText, description, buttonLabel, img, alt,}) => {
@@ -31,9 +31,7 @@ malos recuerdos este proceso es hecho a través de los ganglios linfáticos.
                     <Subtitle>Para que eso sea más eficaz debemos tomar abundante agua (mínimo 2 litros
 al día). </Subtitle>
 <Compuestos>Compuestos florales electromagnéticos: Crab Apple, Walnut, Beech, entre otras.  </Compuestos>
-                    <BtnWrap>
-                                <button className="boton">WhatsApp</button>
-                            </BtnWrap>
+
                         </TextWrapper>
                     </Column1>
                     

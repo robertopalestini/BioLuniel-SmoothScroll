@@ -18,11 +18,11 @@ justify-content: center;
 
 @media screen and (max-width: 768px) {
     padding: 0 24px;
-    height: 520px;
+    height: 550px;
 }
 @media screen and (max-width:480px) {
     padding: 0 24px;
-    height: 620px;
+    height: 720px;
 }
 
 `
