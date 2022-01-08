@@ -30,9 +30,8 @@ import Icon26 from '../../images/biocabello-01.png'
 import Icon27 from '../../images/bioarsilla-01.png'
 import {ProductsContainer, ProductsH1, ProductsWrapper, ProductsCard, ProductsIcon, ProductsIconBio, ProductsH2, ProductsP} from './ProductsElements'
 import Swal from 'sweetalert2';
+import { HashLink } from 'react-router-hash-link';
 
-    import { HashLink } from 'react-router-hash-link';
-    import {Button} from '../ButtonElement';
 
 const Products = () => {
     
@@ -593,9 +592,8 @@ const artritis=()=>{
 
 
 
-            <ProductsH1 margin-top="20px">Bio Natura</ProductsH1>
+            <ProductsH1 margin-top="30px">Bio Natura</ProductsH1>
             <ProductsWrapper id="bionatura">
-            
                 <ProductsCard>
                     <ProductsIconBio src={Icon25} onClick={()=>cristal()}/>
                     <HashLink to="/infoproductos#cristal">

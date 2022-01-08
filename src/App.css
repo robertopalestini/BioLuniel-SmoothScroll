@@ -6,3 +6,7 @@
   text-decoration: none;
   color: white;
 }
+
+[id] {
+  scroll-margin-top: 11.5em;
+}
