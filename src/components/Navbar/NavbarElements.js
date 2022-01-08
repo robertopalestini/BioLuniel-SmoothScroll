@@ -11,7 +11,7 @@ align-items: center;
 width: 240px;
 `
 export const Nav = styled.nav`
-    background: ${({scrollNav}) => (scrollNav ? '#d1e0c5' : 'transparent')};
+    background: ${({scrollNav}) => (scrollNav ? '#d1e0c5' : '#d1e0c5')};
     height: 80px;
     margin-top: -80px;
     display: flex;

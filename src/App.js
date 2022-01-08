@@ -87,7 +87,6 @@ function App() {
       allowClickAway
       avatar={avatar}
       notification
-      notificationSound
       notificationDelay={30000}
     />
     </Router>

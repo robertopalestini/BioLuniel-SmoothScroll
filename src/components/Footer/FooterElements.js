@@ -50,6 +50,8 @@ color: #fff;
 }
 `
 
+
+
 export const FooterLinkTitle = styled.h1`
 font-size: 14px;
 margin-bottom: 16px;
@@ -116,4 +118,15 @@ align-items: center;
 export const SocialIconLink = styled.a`
 color: #fff;
 font-size: 24px;
+`
+
+
+export const ImgWrap = styled.div`
+max-width: 555px;
+`
+
+export const Img = styled.img`
+width: 400px;
+margin: 0 0 10px 0;
+padding-right: 0;
 `

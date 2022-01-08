@@ -14,6 +14,7 @@ import {FooterContainer,
     SocialIcons,
     SocialIconLink} from './FooterElements';
 
+
 const Footer = () => {
     const toggleHome = () => {
         scroll.scrollToTop()
@@ -24,8 +25,8 @@ const Footer = () => {
         <FooterWrap>
         <FooterLinksContainer>
             <FooterLinksWrapper>
-                <FooterLinkItems>
-                    <FooterLinkTitle>Bio Luniel</FooterLinkTitle>
+            <FooterLinkItems>
+                 <FooterLinkTitle>Bio Luniel</FooterLinkTitle>
                         <FooterLink to="/productos" onClick={toggleHome}>Productos</FooterLink>
                         <FooterLink to="/nosotros" onClick={toggleHome}>Nosotros</FooterLink>
                         <FooterLink to="/contacto" onClick={toggleHome}>Contacto</FooterLink>
