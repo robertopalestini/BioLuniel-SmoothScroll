@@ -612,10 +612,10 @@ const artritis=()=>{
                 </ProductsCard>
                 <ProductsCard>
                     <ProductsIconBio src={Icon27} onClick={()=>arcilla()} />
-                    
+                    <HashLink to="/infoproductos#arcilla">
                     <ProductsH2>Bio Arcilla</ProductsH2>
-                    <Button to="/infoproductos#arcilla">Ver más</Button>
-                    
+                    <ProductsP>Ver más</ProductsP>
+                    </HashLink>
                 </ProductsCard>
             </ProductsWrapper>
               </ProductsContainer>
