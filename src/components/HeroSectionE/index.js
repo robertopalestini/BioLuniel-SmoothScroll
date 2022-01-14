@@ -103,7 +103,7 @@ const tristeza=()=>{
                             
 
                     >
-                        Todos los Productos {hover ? <ArrowForward /> : <ArrowRight />}</Button>
+                        Ver todos los Productos {hover ? <ArrowForward /> : <ArrowRight />}</Button>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>
